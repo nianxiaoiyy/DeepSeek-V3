@@ -1,0 +1,2855 @@
+{
+	"drawioXML": "<mxfile>\n  <diagram id=\"H0GOZQbocQMkt9vxtHq-\" name=\"Page-1\">\n    <mxGraphModel dx=\"8022\" dy=\"3781\" grid=\"0\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"0\" arrows=\"1\" fold=\"1\" page=\"0\" pageScale=\"1\" pageWidth=\"850\" pageHeight=\"1100\" math=\"0\" shadow=\"0\">\n      <root>\n        <mxCell id=\"0\" />\n        <mxCell id=\"1\" style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=9;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"0\" />\n        <UserObject label=\"README.md\" value=\"README.md\" id=\"6cd69da6-c163-4e2f-85f2-4e4b4d167ff7\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=22;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"1\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"139.99999999999997\" width=\"320\" height=\"360\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Execution Trigger: User runs the generation script - README.md:L296\" value=\"Execution Trigger: User runs the generation script - README.md:L296\" id=\"0746b257-ccb2-473d-8c08-730666dde2ae\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"6cd69da6-c163-4e2f-85f2-4e4b4d167ff7\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"200\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Launch Distributed Inference - README.md:L296-297\" value=\"Launch Distributed Inference - README.md:L296-297\" id=\"be19f971-55ab-495d-b562-143a5dfabb21\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"6cd69da6-c163-4e2f-85f2-4e4b4d167ff7\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"inference\" value=\"inference\" id=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=55;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"1\" vertex=\"1\">\n            <mxGeometry x=\"580\" y=\"70\" width=\"6080\" height=\"769.6961495624954\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"generate.py\" value=\"generate.py\" id=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=46;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f9f3f3\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" vertex=\"1\">\n            <mxGeometry x=\"175\" y=\"70\" width=\"2240\" height=\"490\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Parse Command-Line Arguments - generate.py:L176-184\" value=\"Parse Command-Line Arguments - generate.py:L176-184\" id=\"5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"200\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Initialize Model and Tokenizer - generate.py:L112-119\" value=\"Initialize Model and Tokenizer - generate.py:L112-119\" id=\"1b47e7a4-501b-4269-bb15-484dd2b84e89\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"390\" y=\"206.96836360312523\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Format and Tokenize Prompt - generate.py:L139-140\" value=\"Format and Tokenize Prompt - generate.py:L139-140\" id=\"a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"710\" y=\"206.96836360312523\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Iterative Token Generation - generate.py:L60-67\" value=\"Iterative Token Generation - generate.py:L60-67\" id=\"1f667322-0be1-486d-a862-785492ebcccb\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"1030\" y=\"198.69235531580324\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Sample Next Token - generate.py:L25-27\" value=\"Sample Next Token - generate.py:L25-27\" id=\"1a702b06-43a1-4471-98c2-030a8fac62ce\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"1350\" y=\"198.69235531580324\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Decode Tokens to String - generate.py:L142\" value=\"Decode Tokens to String - generate.py:L142\" id=\"694ab3ba-aad9-40c4-aaa0-fef15b18c84c\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"1670\" y=\"194.9443383895773\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Output to User and Update History - generate.py:L143-144\" value=\"Output to User and Update History - generate.py:L143-144\" id=\"fed7b983-e9af-45dd-9f8e-b5c0513ed02b\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"1990\" y=\"194.94433838957733\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"ea186c00-bfa0-4fed-8311-f10e05c959fa\" value=\"Invoke Main&#xa;Logic\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" source=\"5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0\" target=\"1b47e7a4-501b-4269-bb15-484dd2b84e89\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"290\" y=\"245\" />\n              <mxPoint x=\"290\" y=\"251.96836360312523\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"a347e119-9278-4bbb-b0fe-1de7fc106f1e\" value=\"User Provides&#xa;Input\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" source=\"1b47e7a4-501b-4269-bb15-484dd2b84e89\" target=\"a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"92db04f4-2356-44a7-96b5-3fe453fcb8a8\" value=\"Pass Tokens&#xa;to Generation&#xa;Function\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" source=\"a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b\" target=\"1f667322-0be1-486d-a862-785492ebcccb\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"930\" y=\"251.96836360312523\" />\n              <mxPoint x=\"930\" y=\"243.69235531580324\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"9020a9a2-77e9-49c4-8070-7df6b663bed7\" value=\"Pass Logits&#xa;for Sampling\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" source=\"1f667322-0be1-486d-a862-785492ebcccb\" target=\"1a702b06-43a1-4471-98c2-030a8fac62ce\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"caa82f9a-05a2-4f4e-9158-6b77ab593ceb\" value=\"Return Completion&#xa;Tokens\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" source=\"1a702b06-43a1-4471-98c2-030a8fac62ce\" target=\"694ab3ba-aad9-40c4-aaa0-fef15b18c84c\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"1570\" y=\"243.69235531580324\" />\n              <mxPoint x=\"1570\" y=\"239.9443383895773\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"7d3ca400-1202-41ef-b9e9-789e06de42b6\" value=\"Display Generated&#xa;Text\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" source=\"694ab3ba-aad9-40c4-aaa0-fef15b18c84c\" target=\"fed7b983-e9af-45dd-9f8e-b5c0513ed02b\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"Initialize Process Group - generate.py:L103-104\" value=\"Initialize Process Group - generate.py:L103-104\" id=\"135f55ad-c670-4a93-aeb1-27c7de5963d6\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Instantiate Transformer Model with Tensor Parallelism - generate.py:L3-108\" value=\"Instantiate Transformer Model with Tensor Parallelism - generate.py:L3-108\" id=\"a9691dfb-ba90-414c-a497-65f025d22f4a\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"390\" y=\"76.96836360312523\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Sample Next Token - generate.py:L62-65\" value=\"Sample Next Token - generate.py:L62-65\" id=\"d9955bac-2053-459e-890e-d79e3d0e2218\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"330\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"cd0d5786-4c14-445e-8fef-96c679ba21a1\" value=\"Distributed Environment&#xa;Active\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"f10a4b0c-b693-4808-bd44-1912d1fc1c3c\" source=\"135f55ad-c670-4a93-aeb1-27c7de5963d6\" target=\"a9691dfb-ba90-414c-a497-65f025d22f4a\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"290\" y=\"115\" />\n              <mxPoint x=\"290\" y=\"121.96836360312523\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"model.py\" value=\"model.py\" id=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=45;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f9f3f3\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" vertex=\"1\">\n            <mxGeometry x=\"2605\" y=\"159.69614956249532\" width=\"1920\" height=\"446.7663987017168\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"FP8 Inference Flow: Linear Transformation Dispatch - model.py:L153-158\" value=\"FP8 Inference Flow: Linear Transformation Dispatch - model.py:L153-158\" id=\"bf3aae5a-2e61-4023-9fb1-98cccf4908df\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" vertex=\"1\">\n            <mxGeometry x=\"1670\" y=\"156.7663987017168\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"FP8 Inference Flow: Perform FP8 Matrix Multiplication - model.py:L160\" value=\"FP8 Inference Flow: Perform FP8 Matrix Multiplication - model.py:L160\" id=\"ca76e097-8403-4429-9295-9c99b14ccd7f\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Column-Parallel Computation - model.py:L425\" value=\"Column-Parallel Computation - model.py:L425\" id=\"ace2abbf-8af5-4b41-829a-1aef065eef8b\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"206.85524998296307\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Row-Parallel Computation and Aggregation - model.py:L433\" value=\"Row-Parallel Computation and Aggregation - model.py:L433\" id=\"9bcca4e1-bb92-4665-86f5-c1f1089116fd\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" vertex=\"1\">\n            <mxGeometry x=\"390\" y=\"206.85524998296307\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"All-Reduce Communication - model.py:L263-264\" value=\"All-Reduce Communication - model.py:L263-264\" id=\"cda88692-38f8-4213-a123-883d33542976\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" vertex=\"1\">\n            <mxGeometry x=\"710\" y=\"206.85524998296307\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Mixture-of-Experts (MoE) Computation - model.py:L684-689\" value=\"Mixture-of-Experts (MoE) Computation - model.py:L684-689\" id=\"125b2cbe-c32b-4f69-acc4-9603246997d4\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" vertex=\"1\">\n            <mxGeometry x=\"1030\" y=\"206.85524998296307\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"MoE All-Reduce Communication - model.py:L691-692\" value=\"MoE All-Reduce Communication - model.py:L691-692\" id=\"a006bc12-cc4b-4caa-a980-58df1316bef4\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" vertex=\"1\">\n            <mxGeometry x=\"1350\" y=\"286.7663987017168\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"All-Gather Final Logits - model.py:L4-773\" value=\"All-Gather Final Logits - model.py:L4-773\" id=\"c8cf54bf-a366-4aa9-9360-8e8f76293f38\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" vertex=\"1\">\n            <mxGeometry x=\"1670\" y=\"286.7663987017168\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"6859bd0d-d7fc-4590-991f-58349dad01db\" value=\"Transmit Sharded&#xa;Tensors\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" source=\"ace2abbf-8af5-4b41-829a-1aef065eef8b\" target=\"9bcca4e1-bb92-4665-86f5-c1f1089116fd\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"4b358b04-f5b4-49af-856f-ede61a0865ee\" value=\"Distribute Partial&#xa;Results for&#xa;Reduction\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" source=\"9bcca4e1-bb92-4665-86f5-c1f1089116fd\" target=\"cda88692-38f8-4213-a123-883d33542976\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"7309b263-a324-467c-a0e8-6d5c5c3149d3\" value=\"Transmit Aggregated&#xa;Attention Output\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" source=\"cda88692-38f8-4213-a123-883d33542976\" target=\"125b2cbe-c32b-4f69-acc4-9603246997d4\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"33a36d6a-4e79-4c54-8f51-4c16d27d8075\" value=\"Distribute Partial&#xa;MoE Outputs\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" source=\"125b2cbe-c32b-4f69-acc4-9603246997d4\" target=\"a006bc12-cc4b-4caa-a980-58df1316bef4\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"1250\" y=\"251.85524998296307\" />\n              <mxPoint x=\"1250\" y=\"331.7663987017168\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"1ce50f47-e937-4bd0-89b9-0c535d21139f\" value=\"Transmit Final&#xa;Logits for&#xa;Aggregation\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"cd1362ea-766b-42c6-9465-d48a7b0c3ce1\" source=\"a006bc12-cc4b-4caa-a980-58df1316bef4\" target=\"c8cf54bf-a366-4aa9-9360-8e8f76293f38\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"kernel.py\" value=\"kernel.py\" id=\"66caa57a-7d50-4c7f-9650-7b275897335f\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=28;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f9f3f3\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" vertex=\"1\">\n            <mxGeometry x=\"4715\" y=\"159.69614956249532\" width=\"720\" height=\"490\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"FP8 Inference Flow: Launch Activation Quantization Kernel - kernel.py:L38-57\" value=\"FP8 Inference Flow: Launch Activation Quantization Kernel - kernel.py:L38-57\" id=\"a891f3ff-fc0f-4542-b007-b69f85051860\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"66caa57a-7d50-4c7f-9650-7b275897335f\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"199.99999999999997\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"FP8 Inference Flow: Execute Triton Kernel for GEMM - kernel.py:L120-172\" value=\"FP8 Inference Flow: Execute Triton Kernel for GEMM - kernel.py:L120-172\" id=\"fc7cb542-c506-4ad5-b655-64e46c17fa60\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"66caa57a-7d50-4c7f-9650-7b275897335f\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Conversion Flow: Launch Weight Dequantization Kernel - kernel.py:L89-110\" value=\"Conversion Flow: Launch Weight Dequantization Kernel - kernel.py:L89-110\" id=\"e893e1c1-223c-42e7-b59e-57d04d199c0e\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"66caa57a-7d50-4c7f-9650-7b275897335f\" vertex=\"1\">\n            <mxGeometry x=\"150\" y=\"330\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Conversion Flow: Perform Dequantization on GPU - kernel.py:L61-86\" value=\"Conversion Flow: Perform Dequantization on GPU - kernel.py:L61-86\" id=\"b3e53f37-cb0e-4329-b078-b75428e294b6\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"66caa57a-7d50-4c7f-9650-7b275897335f\" vertex=\"1\">\n            <mxGeometry x=\"470\" y=\"309.3224089795065\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"3714d2d7-04dd-4218-a9d7-de7208992c6a\" value=\"Conversion Flow:&#xa;Execute Triton&#xa;Kernel for&#xa;Dequantization\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"66caa57a-7d50-4c7f-9650-7b275897335f\" source=\"e893e1c1-223c-42e7-b59e-57d04d199c0e\" target=\"b3e53f37-cb0e-4329-b078-b75428e294b6\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"370\" y=\"375\" />\n              <mxPoint x=\"370\" y=\"354.3224089795065\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"fp8_cast_bf16.py\" value=\"fp8_cast_bf16.py\" id=\"da4459af-ed20-412a-aba1-4b1f05efe5d1\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=22;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f9f3f3\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" vertex=\"1\">\n            <mxGeometry x=\"5625\" y=\"269.01855854200187\" width=\"320\" height=\"360\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Conversion Flow: Start FP8 to BF16 Weight Conversion - fp8_cast_bf16.py:L107-111\" value=\"Conversion Flow: Start FP8 to BF16 Weight Conversion - fp8_cast_bf16.py:L107-111\" id=\"39f8a6c2-5589-42fe-8fc3-a94c1536e950\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"da4459af-ed20-412a-aba1-4b1f05efe5d1\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Conversion Flow: Save BF16 Weights - fp8_cast_bf16.py:L87-88\" value=\"Conversion Flow: Save BF16 Weights - fp8_cast_bf16.py:L87-88\" id=\"c8464097-04cf-4283-bda0-883beaee7b6e\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" parent=\"da4459af-ed20-412a-aba1-4b1f05efe5d1\" vertex=\"1\">\n            <mxGeometry x=\"70\" y=\"200\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"adfeefeb-6ffd-4fb1-b3ea-654666f01775\" value=\"FP8 Inference&#xa;Flow: Pass&#xa;Activations for&#xa;Quantization\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" source=\"bf3aae5a-2e61-4023-9fb1-98cccf4908df\" target=\"a891f3ff-fc0f-4542-b007-b69f85051860\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"4590\" y=\"361.4625482642121\" />\n              <mxPoint x=\"4590\" y=\"404.6961495624953\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"c27a616b-ebeb-46bd-b680-32de070d655e\" value=\"FP8 Inference&#xa;Flow: Execute&#xa;Triton Kernel&#xa;for Quantization\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" source=\"a891f3ff-fc0f-4542-b007-b69f85051860\" target=\"ca76e097-8403-4429-9295-9c99b14ccd7f\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"5085\" y=\"404.69614956249524\" />\n              <mxPoint x=\"5085\" y=\"400.46545647312746\" />\n              <mxPoint x=\"5500\" y=\"400.4654564731275\" />\n              <mxPoint x=\"5500\" y=\"109.6961495624953\" />\n              <mxPoint x=\"2490\" y=\"109.6961495624953\" />\n              <mxPoint x=\"2490\" y=\"274.6961495624953\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"5771b2ac-7894-4d66-ac66-ef2e2bad08aa\" value=\"FP8 Inference&#xa;Flow: Pass&#xa;Quantized Tensors&#xa;to GEMM&#xa;Kernel\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" source=\"ca76e097-8403-4429-9295-9c99b14ccd7f\" target=\"fc7cb542-c506-4ad5-b655-64e46c17fa60\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"2895\" y=\"274.6961495624953\" />\n              <mxPoint x=\"2895\" y=\"265.4625482642121\" />\n              <mxPoint x=\"4590\" y=\"265.4625482642121\" />\n              <mxPoint x=\"4590\" y=\"275.7159835865333\" />\n              <mxPoint x=\"4825\" y=\"275.7159835865333\" />\n              <mxPoint x=\"4825\" y=\"274.6961495624953\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"11f7b5b1-4d7d-4f10-804e-e70b09840500\" value=\"FP8 Inference&#xa;Flow: Return&#xa;Final Result\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" source=\"fc7cb542-c506-4ad5-b655-64e46c17fa60\" target=\"39f8a6c2-5589-42fe-8fc3-a94c1536e950\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"5085\" y=\"274.6961495624953\" />\n              <mxPoint x=\"5085\" y=\"293.9219034984425\" />\n              <mxPoint x=\"5510\" y=\"293.9219034984425\" />\n              <mxPoint x=\"5510\" y=\"384.0185585420018\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"29590677-243c-428c-b678-c04f1fc7f554\" value=\"Conversion Flow:&#xa;Pass FP8&#xa;Weight for&#xa;Dequantization\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" source=\"39f8a6c2-5589-42fe-8fc3-a94c1536e950\" target=\"e893e1c1-223c-42e7-b59e-57d04d199c0e\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"6010\" y=\"384.01855854200187\" />\n              <mxPoint x=\"6010\" y=\"699.6961495624954\" />\n              <mxPoint x=\"4600\" y=\"699.6961495624954\" />\n              <mxPoint x=\"4600\" y=\"534.6961495624953\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"0c511692-312e-4a20-a296-b68c64e89833\" value=\"Conversion Flow:&#xa;Return Dequantized&#xa;Weight\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=12;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" source=\"b3e53f37-cb0e-4329-b078-b75428e294b6\" target=\"c8464097-04cf-4283-bda0-883beaee7b6e\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"5ba5239b-004e-4a41-89c0-17ed3b098bb8\" value=\"Model Forward&#xa;Pass Initiated\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" source=\"a9691dfb-ba90-414c-a497-65f025d22f4a\" target=\"ace2abbf-8af5-4b41-829a-1aef065eef8b\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"785\" y=\"191.96836360312523\" />\n              <mxPoint x=\"785\" y=\"204.85338531511007\" />\n              <mxPoint x=\"2480\" y=\"204.85338531511007\" />\n              <mxPoint x=\"2480\" y=\"411.55139954545837\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"17665480-10c1-4441-8de3-d5ee769c3fac\" value=\"Return Full&#xa;Logits\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2\" source=\"c8cf54bf-a366-4aa9-9360-8e8f76293f38\" target=\"d9955bac-2053-459e-890e-d79e3d0e2218\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"4590\" y=\"491.4625482642121\" />\n              <mxPoint x=\"4590\" y=\"656.4625482642122\" />\n              <mxPoint x=\"110\" y=\"656.4625482642122\" />\n              <mxPoint x=\"110\" y=\"444.99999999999994\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"10c7ffb7-97d5-42f5-91bf-68cc3ff1a660\" value=\"Pass Command-Line&#xa;Arguments\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=10;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"0746b257-ccb2-473d-8c08-730666dde2ae\" target=\"5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"129dfb44-bcb7-46de-a9bb-465dcbd11d80\" value=\"Process Spawning\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=10;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" parent=\"1\" source=\"be19f971-55ab-495d-b562-143a5dfabb21\" target=\"135f55ad-c670-4a93-aeb1-27c7de5963d6\" edge=\"1\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n      </root>\n    </mxGraphModel>\n  </diagram>\n</mxfile>\n",
+	"fileName": "DeepSeek-V3.CodeCanvas",
+	"fileURL": "github",
+	"diagramTemplateVersion": 0.2,
+	"filePath": "DeepSeek-V3.CodeCanvas",
+	"repoData": {
+		"README.md": {
+			"path": "README.md",
+			"fileName": "README.md",
+			"cellName": "README.md",
+			"cellId": "6cd69da6-c163-4e2f-85f2-4e4b4d167ff7",
+			"visible": true,
+			"children": [
+				"README.md-simstep-f40a6b22-9da0-470b-b8a1-8e573fe1fe86",
+				"README.md-simstep-5f8c9731-b3c9-472b-80d7-684f64e8aad4"
+			]
+		},
+		"inference": {
+			"path": "inference",
+			"fileName": "inference",
+			"cellName": "inference",
+			"cellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2",
+			"visible": true,
+			"children": [
+				"inference/generate.py",
+				"inference/model.py",
+				"inference/kernel.py",
+				"inference/fp8_cast_bf16.py"
+			]
+		},
+		"inference/fp8_cast_bf16.py": {
+			"path": "inference/fp8_cast_bf16.py",
+			"fileName": "fp8_cast_bf16.py",
+			"cellName": "fp8_cast_bf16.py",
+			"cellId": "da4459af-ed20-412a-aba1-4b1f05efe5d1",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2",
+			"children": [
+				"inference/fp8_cast_bf16.py-simstep-3e688546-0a88-4272-9baf-435a46b88dc4",
+				"inference/fp8_cast_bf16.py-simstep-2e3480fe-2a62-43f9-953c-6af2d8a30960",
+				"generated-edge-simstep-0b81e28f-2d46-4daa-a6ac-557d56cca313-29590677-243c-428c-b678-c04f1fc7f554",
+				"generated-edge-simstep-699e0766-0ccc-4f56-94b8-12be2b64e2ac-0c511692-312e-4a20-a296-b68c64e89833"
+			]
+		},
+		"inference/generate.py": {
+			"path": "inference/generate.py",
+			"fileName": "generate.py",
+			"cellName": "generate.py",
+			"cellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2",
+			"children": [
+				"inference/generate.py-simstep-5a4a86e0-18c8-493f-abe7-842451dcdcd5",
+				"inference/generate.py-simstep-9e9d8cfc-a497-4d6c-b14b-75982bfac0c4",
+				"inference/generate.py-simstep-bb9dcd82-c015-4d24-bee4-5a226555232c",
+				"inference/generate.py-simstep-bc146555-06c3-45e8-b556-2e74e0dffc38",
+				"inference/generate.py-simstep-d839c3db-93e5-4ebe-81db-23102724193d",
+				"inference/generate.py-simstep-6f075814-cec0-4a3b-84e1-4eade83a09af",
+				"inference/generate.py-simstep-934e399a-eb6c-48e8-b744-adeedf7a9363",
+				"generated-edge-simstep-85950b06-a5a7-41c4-93bb-de3383a8b2eb-10c7ffb7-97d5-42f5-91bf-68cc3ff1a660",
+				"generated-edge-simstep-ebc39b55-82b3-4e4e-a11e-e03cc15cbfbf-ea186c00-bfa0-4fed-8311-f10e05c959fa",
+				"generated-edge-simstep-608a3136-401b-4152-9705-55177d677876-a347e119-9278-4bbb-b0fe-1de7fc106f1e",
+				"generated-edge-simstep-5c5b9b38-b8d7-4c4d-ba60-d4da1eff5015-92db04f4-2356-44a7-96b5-3fe453fcb8a8",
+				"generated-edge-simstep-0d1264e5-eec6-4b47-aa44-9e0a62c43ef0-9020a9a2-77e9-49c4-8070-7df6b663bed7",
+				"generated-edge-simstep-b16e01da-fbf2-4b33-96d9-66d6678a9e40-caa82f9a-05a2-4f4e-9158-6b77ab593ceb",
+				"generated-edge-simstep-fe9d2525-1f59-44bc-a9b6-4caca71c2c6e-7d3ca400-1202-41ef-b9e9-789e06de42b6",
+				"inference/generate.py-simstep-40e8b95d-7ac2-494d-b359-716a57539176",
+				"inference/generate.py-simstep-334f8055-3564-464e-88e7-962439ca1160",
+				"inference/generate.py-simstep-cabfc866-8d46-4104-8c04-4950ec6630ad",
+				"generated-edge-simstep-bbaffc24-4cc1-4de7-bc33-4aaebc1e2874-129dfb44-bcb7-46de-a9bb-465dcbd11d80",
+				"generated-edge-simstep-b8126c51-b1fb-4775-b887-61c8f08278ac-5ba5239b-004e-4a41-89c0-17ed3b098bb8"
+			]
+		},
+		"inference/kernel.py": {
+			"path": "inference/kernel.py",
+			"fileName": "kernel.py",
+			"cellName": "kernel.py",
+			"cellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2",
+			"children": [
+				"inference/kernel.py-simstep-8981fb17-40e8-47e3-a137-7db4b4e767c1",
+				"inference/kernel.py-simstep-b6456c43-b3e7-4abd-b066-658df2a46dbb",
+				"inference/kernel.py-simstep-34a45fd1-bc22-48eb-be24-610c64fb40a5",
+				"inference/kernel.py-simstep-e1a1a2d8-4475-42f1-af8c-0157522f57c9",
+				"generated-edge-simstep-2000fe72-ac7e-4780-9edf-b6072b8040de-c27a616b-ebeb-46bd-b680-32de070d655e",
+				"generated-edge-simstep-21de04e4-c5b8-481a-8a0f-f316f5190587-5771b2ac-7894-4d66-ac66-ef2e2bad08aa",
+				"generated-edge-simstep-4f940598-d09b-4d93-b279-b85a6d397f31-3714d2d7-04dd-4218-a9d7-de7208992c6a"
+			]
+		},
+		"inference/model.py": {
+			"path": "inference/model.py",
+			"fileName": "model.py",
+			"cellName": "model.py",
+			"cellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2",
+			"children": [
+				"inference/model.py-simstep-7b730b57-3ed3-437b-aedf-83452f90a215",
+				"inference/model.py-simstep-ef8ec40d-8d14-40ad-89b0-b97d484b10e8",
+				"generated-edge-simstep-afd6e45d-22ab-4548-b4da-02c02e9bbf85-adfeefeb-6ffd-4fb1-b3ea-654666f01775",
+				"generated-edge-simstep-bf67524b-b685-47c1-a87c-2b6bc35c0c91-11f7b5b1-4d7d-4f10-804e-e70b09840500",
+				"inference/model.py-simstep-fadd6e81-02f2-4943-b6fd-675ef0b64d65",
+				"inference/model.py-simstep-e37b58fa-6cbb-4b4f-a684-62d6e1ec3a8d",
+				"inference/model.py-simstep-693f1026-5630-4ed6-8a0e-b3ed75bedb71",
+				"inference/model.py-simstep-cf999bc1-4713-425e-90dd-3d3c40a108c1",
+				"inference/model.py-simstep-f96bbdc9-856b-4dc2-9d2d-a21357604833",
+				"inference/model.py-simstep-d5c9716b-f7d5-44e1-a58c-fdd28660aafa",
+				"generated-edge-simstep-4bc7586c-6373-4507-accc-97c979acd9bc-cd0d5786-4c14-445e-8fef-96c679ba21a1",
+				"generated-edge-simstep-74dfb9e3-d4e2-45e8-bda9-617c05aeca87-6859bd0d-d7fc-4590-991f-58349dad01db",
+				"generated-edge-simstep-8602e6ed-9418-43c5-9ecf-d1f826eac3f0-4b358b04-f5b4-49af-856f-ede61a0865ee",
+				"generated-edge-simstep-eb5eeaed-0905-49e9-82e7-edf10c53b6e8-7309b263-a324-467c-a0e8-6d5c5c3149d3",
+				"generated-edge-simstep-669637bd-8119-41c9-a091-59e5dbf5817e-33a36d6a-4e79-4c54-8f51-4c16d27d8075",
+				"generated-edge-simstep-61d58d74-b9c4-44fd-8d0b-fc0b2ec9078d-1ce50f47-e937-4bd0-89b9-0c535d21139f",
+				"generated-edge-simstep-7661e4eb-d996-44ff-8413-fcf66b2905bb-17665480-10c1-4441-8de3-d5ee769c3fac"
+			]
+		},
+		"6cd69da6-c163-4e2f-85f2-4e4b4d167ff7": {
+			"path": "6cd69da6-c163-4e2f-85f2-4e4b4d167ff7",
+			"fileName": "6cd69da6-c163-4e2f-85f2-4e4b4d167ff7",
+			"cellName": "README.md",
+			"cellId": "6cd69da6-c163-4e2f-85f2-4e4b4d167ff7",
+			"visible": true
+		},
+		"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2": {
+			"path": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2",
+			"fileName": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2",
+			"cellName": "inference",
+			"cellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2",
+			"visible": true
+		},
+		"f10a4b0c-b693-4808-bd44-1912d1fc1c3c": {
+			"path": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"fileName": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"cellName": "generate.py",
+			"cellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"0746b257-ccb2-473d-8c08-730666dde2ae": {
+			"path": "0746b257-ccb2-473d-8c08-730666dde2ae",
+			"fileName": "0746b257-ccb2-473d-8c08-730666dde2ae",
+			"cellName": "Execution Trigger: User runs the generation script - README.md:L296",
+			"cellId": "0746b257-ccb2-473d-8c08-730666dde2ae",
+			"visible": true,
+			"parentCellId": "6cd69da6-c163-4e2f-85f2-4e4b4d167ff7"
+		},
+		"README.md-simstep-f40a6b22-9da0-470b-b8a1-8e573fe1fe86": {
+			"path": "README.md-simstep-f40a6b22-9da0-470b-b8a1-8e573fe1fe86",
+			"fileName": "README.md",
+			"wiki": "A user initiates the text generation process by executing the `generate.py` script using `torchrun`. They specify arguments such as the model checkpoint path, config file, and either `--interactive` for a chat session or `--input-file` for batch processing.",
+			"cellName": "Execution Trigger: User runs the generation script - README.md:L296",
+			"cellId": "0746b257-ccb2-473d-8c08-730666dde2ae",
+			"visible": true,
+			"startLine": 296,
+			"endLine": 296,
+			"parentCellId": "6cd69da6-c163-4e2f-85f2-4e4b4d167ff7",
+			"parentPath": "README.md",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "f40a6b22-9da0-470b-b8a1-8e573fe1fe86"
+				}
+			]
+		},
+		"5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0": {
+			"path": "5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0",
+			"fileName": "5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0",
+			"cellName": "Parse Command-Line Arguments - generate.py:L176-184",
+			"cellId": "5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-5a4a86e0-18c8-493f-abe7-842451dcdcd5": {
+			"path": "inference/generate.py-simstep-5a4a86e0-18c8-493f-abe7-842451dcdcd5",
+			"fileName": "generate.py",
+			"wiki": "The script's entry point (`if __name__ == '__main__':`) uses `ArgumentParser` to parse the provided command-line flags and values. It also asserts that either interactive mode or an input file is specified.",
+			"cellName": "Parse Command-Line Arguments - generate.py:L176-184",
+			"cellId": "5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0",
+			"visible": true,
+			"startLine": 176,
+			"endLine": 184,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "5a4a86e0-18c8-493f-abe7-842451dcdcd5"
+				}
+			]
+		},
+		"1b47e7a4-501b-4269-bb15-484dd2b84e89": {
+			"path": "1b47e7a4-501b-4269-bb15-484dd2b84e89",
+			"fileName": "1b47e7a4-501b-4269-bb15-484dd2b84e89",
+			"cellName": "Initialize Model and Tokenizer - generate.py:L112-119",
+			"cellId": "1b47e7a4-501b-4269-bb15-484dd2b84e89",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-9e9d8cfc-a497-4d6c-b14b-75982bfac0c4": {
+			"path": "inference/generate.py-simstep-9e9d8cfc-a497-4d6c-b14b-75982bfac0c4",
+			"fileName": "generate.py",
+			"wiki": "The `main` function initializes the environment, loads the model configuration (`ModelArgs`), instantiates the Transformer model, and loads the tokenizer. Finally, it loads the pre-trained model weights from the specified checkpoint file.",
+			"cellName": "Initialize Model and Tokenizer - generate.py:L112-119",
+			"cellId": "1b47e7a4-501b-4269-bb15-484dd2b84e89",
+			"visible": true,
+			"startLine": 112,
+			"endLine": 119,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "9e9d8cfc-a497-4d6c-b14b-75982bfac0c4"
+				}
+			]
+		},
+		"a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b": {
+			"path": "a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b",
+			"fileName": "a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b",
+			"cellName": "Format and Tokenize Prompt - generate.py:L139-140",
+			"cellId": "a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-bb9dcd82-c015-4d24-bee4-5a226555232c": {
+			"path": "inference/generate.py-simstep-bb9dcd82-c015-4d24-bee4-5a226555232c",
+			"fileName": "generate.py",
+			"wiki": "The user's input is added to the conversation history (`messages`). The `tokenizer.apply_chat_template` method is then used to convert the entire conversation history into a properly formatted list of token IDs that the model can understand.",
+			"cellName": "Format and Tokenize Prompt - generate.py:L139-140",
+			"cellId": "a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b",
+			"visible": true,
+			"startLine": 139,
+			"endLine": 140,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "bb9dcd82-c015-4d24-bee4-5a226555232c"
+				}
+			]
+		},
+		"1f667322-0be1-486d-a862-785492ebcccb": {
+			"path": "1f667322-0be1-486d-a862-785492ebcccb",
+			"fileName": "1f667322-0be1-486d-a862-785492ebcccb",
+			"cellName": "Iterative Token Generation - generate.py:L60-67",
+			"cellId": "1f667322-0be1-486d-a862-785492ebcccb",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-bc146555-06c3-45e8-b556-2e74e0dffc38": {
+			"path": "inference/generate.py-simstep-bc146555-06c3-45e8-b556-2e74e0dffc38",
+			"fileName": "generate.py",
+			"wiki": "The `generate` function enters a loop, generating one token at a time. In each iteration, it calls `model.forward()` to get the probability distribution (logits) for the next token. It then calls the `sample` function to select the next token based on the specified temperature.",
+			"cellName": "Iterative Token Generation - generate.py:L60-67",
+			"cellId": "1f667322-0be1-486d-a862-785492ebcccb",
+			"visible": true,
+			"startLine": 60,
+			"endLine": 67,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "bc146555-06c3-45e8-b556-2e74e0dffc38"
+				}
+			]
+		},
+		"1a702b06-43a1-4471-98c2-030a8fac62ce": {
+			"path": "1a702b06-43a1-4471-98c2-030a8fac62ce",
+			"fileName": "1a702b06-43a1-4471-98c2-030a8fac62ce",
+			"cellName": "Sample Next Token - generate.py:L25-27",
+			"cellId": "1a702b06-43a1-4471-98c2-030a8fac62ce",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-d839c3db-93e5-4ebe-81db-23102724193d": {
+			"path": "inference/generate.py-simstep-d839c3db-93e5-4ebe-81db-23102724193d",
+			"fileName": "generate.py",
+			"wiki": "The `sample` function adjusts the logits using the temperature value, converts them to probabilities using softmax, and then performs a weighted random sampling to select the next token.",
+			"cellName": "Sample Next Token - generate.py:L25-27",
+			"cellId": "1a702b06-43a1-4471-98c2-030a8fac62ce",
+			"visible": true,
+			"startLine": 25,
+			"endLine": 27,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "d839c3db-93e5-4ebe-81db-23102724193d"
+				}
+			]
+		},
+		"694ab3ba-aad9-40c4-aaa0-fef15b18c84c": {
+			"path": "694ab3ba-aad9-40c4-aaa0-fef15b18c84c",
+			"fileName": "694ab3ba-aad9-40c4-aaa0-fef15b18c84c",
+			"cellName": "Decode Tokens to String - generate.py:L142",
+			"cellId": "694ab3ba-aad9-40c4-aaa0-fef15b18c84c",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-6f075814-cec0-4a3b-84e1-4eade83a09af": {
+			"path": "inference/generate.py-simstep-6f075814-cec0-4a3b-84e1-4eade83a09af",
+			"fileName": "generate.py",
+			"wiki": "Back in the `main` function, the list of completion tokens is passed to `tokenizer.decode`. This converts the integer token IDs back into a human-readable string, skipping any special tokens like padding or end-of-sequence.",
+			"cellName": "Decode Tokens to String - generate.py:L142",
+			"cellId": "694ab3ba-aad9-40c4-aaa0-fef15b18c84c",
+			"visible": true,
+			"startLine": 142,
+			"endLine": 142,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "6f075814-cec0-4a3b-84e1-4eade83a09af"
+				}
+			]
+		},
+		"fed7b983-e9af-45dd-9f8e-b5c0513ed02b": {
+			"path": "fed7b983-e9af-45dd-9f8e-b5c0513ed02b",
+			"fileName": "fed7b983-e9af-45dd-9f8e-b5c0513ed02b",
+			"cellName": "Output to User and Update History - generate.py:L143-144",
+			"cellId": "fed7b983-e9af-45dd-9f8e-b5c0513ed02b",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-934e399a-eb6c-48e8-b744-adeedf7a9363": {
+			"path": "inference/generate.py-simstep-934e399a-eb6c-48e8-b744-adeedf7a9363",
+			"fileName": "generate.py",
+			"wiki": "The generated text is printed to the console for the user to see. The completion is then added to the `messages` list with the role 'assistant' to maintain the context for the next turn in the conversation.",
+			"cellName": "Output to User and Update History - generate.py:L143-144",
+			"cellId": "fed7b983-e9af-45dd-9f8e-b5c0513ed02b",
+			"visible": true,
+			"startLine": 143,
+			"endLine": 144,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "934e399a-eb6c-48e8-b744-adeedf7a9363"
+				}
+			]
+		},
+		"10c7ffb7-97d5-42f5-91bf-68cc3ff1a660": {
+			"path": "10c7ffb7-97d5-42f5-91bf-68cc3ff1a660",
+			"fileName": "10c7ffb7-97d5-42f5-91bf-68cc3ff1a660",
+			"cellName": "Pass Command-Line\nArguments",
+			"cellId": "10c7ffb7-97d5-42f5-91bf-68cc3ff1a660",
+			"visible": true
+		},
+		"generated-edge-simstep-85950b06-a5a7-41c4-93bb-de3383a8b2eb-10c7ffb7-97d5-42f5-91bf-68cc3ff1a660": {
+			"path": "generated-edge-simstep-85950b06-a5a7-41c4-93bb-de3383a8b2eb-10c7ffb7-97d5-42f5-91bf-68cc3ff1a660",
+			"fileName": "generate.py",
+			"cellName": "Pass Command-Line Arguments",
+			"cellId": "10c7ffb7-97d5-42f5-91bf-68cc3ff1a660",
+			"visible": true,
+			"startLine": 176,
+			"endLine": 183,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "85950b06-a5a7-41c4-93bb-de3383a8b2eb"
+				}
+			]
+		},
+		"ea186c00-bfa0-4fed-8311-f10e05c959fa": {
+			"path": "ea186c00-bfa0-4fed-8311-f10e05c959fa",
+			"fileName": "ea186c00-bfa0-4fed-8311-f10e05c959fa",
+			"cellName": "Invoke Main\nLogic",
+			"cellId": "ea186c00-bfa0-4fed-8311-f10e05c959fa",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"generated-edge-simstep-ebc39b55-82b3-4e4e-a11e-e03cc15cbfbf-ea186c00-bfa0-4fed-8311-f10e05c959fa": {
+			"path": "generated-edge-simstep-ebc39b55-82b3-4e4e-a11e-e03cc15cbfbf-ea186c00-bfa0-4fed-8311-f10e05c959fa",
+			"fileName": "generate.py",
+			"cellName": "Invoke Main Logic",
+			"cellId": "ea186c00-bfa0-4fed-8311-f10e05c959fa",
+			"visible": true,
+			"startLine": 185,
+			"endLine": 185,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "ebc39b55-82b3-4e4e-a11e-e03cc15cbfbf"
+				}
+			]
+		},
+		"a347e119-9278-4bbb-b0fe-1de7fc106f1e": {
+			"path": "a347e119-9278-4bbb-b0fe-1de7fc106f1e",
+			"fileName": "a347e119-9278-4bbb-b0fe-1de7fc106f1e",
+			"cellName": "User Provides\nInput",
+			"cellId": "a347e119-9278-4bbb-b0fe-1de7fc106f1e",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"generated-edge-simstep-608a3136-401b-4152-9705-55177d677876-a347e119-9278-4bbb-b0fe-1de7fc106f1e": {
+			"path": "generated-edge-simstep-608a3136-401b-4152-9705-55177d677876-a347e119-9278-4bbb-b0fe-1de7fc106f1e",
+			"fileName": "generate.py",
+			"cellName": "User Provides Input",
+			"cellId": "a347e119-9278-4bbb-b0fe-1de7fc106f1e",
+			"visible": true,
+			"startLine": 125,
+			"endLine": 125,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "608a3136-401b-4152-9705-55177d677876"
+				}
+			]
+		},
+		"92db04f4-2356-44a7-96b5-3fe453fcb8a8": {
+			"path": "92db04f4-2356-44a7-96b5-3fe453fcb8a8",
+			"fileName": "92db04f4-2356-44a7-96b5-3fe453fcb8a8",
+			"cellName": "Pass Tokens\nto Generation\nFunction",
+			"cellId": "92db04f4-2356-44a7-96b5-3fe453fcb8a8",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"generated-edge-simstep-5c5b9b38-b8d7-4c4d-ba60-d4da1eff5015-92db04f4-2356-44a7-96b5-3fe453fcb8a8": {
+			"path": "generated-edge-simstep-5c5b9b38-b8d7-4c4d-ba60-d4da1eff5015-92db04f4-2356-44a7-96b5-3fe453fcb8a8",
+			"fileName": "generate.py",
+			"cellName": "Pass Tokens to Generation Function",
+			"cellId": "92db04f4-2356-44a7-96b5-3fe453fcb8a8",
+			"visible": true,
+			"startLine": 141,
+			"endLine": 141,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "5c5b9b38-b8d7-4c4d-ba60-d4da1eff5015"
+				}
+			]
+		},
+		"9020a9a2-77e9-49c4-8070-7df6b663bed7": {
+			"path": "9020a9a2-77e9-49c4-8070-7df6b663bed7",
+			"fileName": "9020a9a2-77e9-49c4-8070-7df6b663bed7",
+			"cellName": "Pass Logits\nfor Sampling",
+			"cellId": "9020a9a2-77e9-49c4-8070-7df6b663bed7",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"generated-edge-simstep-0d1264e5-eec6-4b47-aa44-9e0a62c43ef0-9020a9a2-77e9-49c4-8070-7df6b663bed7": {
+			"path": "generated-edge-simstep-0d1264e5-eec6-4b47-aa44-9e0a62c43ef0-9020a9a2-77e9-49c4-8070-7df6b663bed7",
+			"fileName": "generate.py",
+			"cellName": "Pass Logits for Sampling",
+			"cellId": "9020a9a2-77e9-49c4-8070-7df6b663bed7",
+			"visible": true,
+			"startLine": 63,
+			"endLine": 63,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "0d1264e5-eec6-4b47-aa44-9e0a62c43ef0"
+				}
+			]
+		},
+		"caa82f9a-05a2-4f4e-9158-6b77ab593ceb": {
+			"path": "caa82f9a-05a2-4f4e-9158-6b77ab593ceb",
+			"fileName": "caa82f9a-05a2-4f4e-9158-6b77ab593ceb",
+			"cellName": "Return Completion\nTokens",
+			"cellId": "caa82f9a-05a2-4f4e-9158-6b77ab593ceb",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"generated-edge-simstep-b16e01da-fbf2-4b33-96d9-66d6678a9e40-caa82f9a-05a2-4f4e-9158-6b77ab593ceb": {
+			"path": "generated-edge-simstep-b16e01da-fbf2-4b33-96d9-66d6678a9e40-caa82f9a-05a2-4f4e-9158-6b77ab593ceb",
+			"fileName": "generate.py",
+			"cellName": "Return Completion Tokens",
+			"cellId": "caa82f9a-05a2-4f4e-9158-6b77ab593ceb",
+			"visible": true,
+			"startLine": 78,
+			"endLine": 78,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "b16e01da-fbf2-4b33-96d9-66d6678a9e40"
+				}
+			]
+		},
+		"7d3ca400-1202-41ef-b9e9-789e06de42b6": {
+			"path": "7d3ca400-1202-41ef-b9e9-789e06de42b6",
+			"fileName": "7d3ca400-1202-41ef-b9e9-789e06de42b6",
+			"cellName": "Display Generated\nText",
+			"cellId": "7d3ca400-1202-41ef-b9e9-789e06de42b6",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"generated-edge-simstep-fe9d2525-1f59-44bc-a9b6-4caca71c2c6e-7d3ca400-1202-41ef-b9e9-789e06de42b6": {
+			"path": "generated-edge-simstep-fe9d2525-1f59-44bc-a9b6-4caca71c2c6e-7d3ca400-1202-41ef-b9e9-789e06de42b6",
+			"fileName": "generate.py",
+			"cellName": "Display Generated Text",
+			"cellId": "7d3ca400-1202-41ef-b9e9-789e06de42b6",
+			"visible": true,
+			"startLine": 143,
+			"endLine": 143,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How local text generation works",
+					"simStepId": "fe9d2525-1f59-44bc-a9b6-4caca71c2c6e"
+				}
+			]
+		},
+		"cd1362ea-766b-42c6-9465-d48a7b0c3ce1": {
+			"path": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"fileName": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"cellName": "model.py",
+			"cellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"66caa57a-7d50-4c7f-9650-7b275897335f": {
+			"path": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"fileName": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"cellName": "kernel.py",
+			"cellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"da4459af-ed20-412a-aba1-4b1f05efe5d1": {
+			"path": "da4459af-ed20-412a-aba1-4b1f05efe5d1",
+			"fileName": "da4459af-ed20-412a-aba1-4b1f05efe5d1",
+			"cellName": "fp8_cast_bf16.py",
+			"cellId": "da4459af-ed20-412a-aba1-4b1f05efe5d1",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"bf3aae5a-2e61-4023-9fb1-98cccf4908df": {
+			"path": "bf3aae5a-2e61-4023-9fb1-98cccf4908df",
+			"fileName": "bf3aae5a-2e61-4023-9fb1-98cccf4908df",
+			"cellName": "FP8 Inference Flow: Linear Transformation Dispatch - model.py:L153-158",
+			"cellId": "bf3aae5a-2e61-4023-9fb1-98cccf4908df",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"inference/model.py-simstep-7b730b57-3ed3-437b-aedf-83452f90a215": {
+			"path": "inference/model.py-simstep-7b730b57-3ed3-437b-aedf-83452f90a215",
+			"fileName": "model.py",
+			"wiki": "The inference process for a linear layer begins. When the model is configured for FP8 inference (`gemm_impl == 'fp8'`), this function dispatches the computation to a specialized FP8 path. It checks if the weight tensor is already quantized (element size of 1 byte).",
+			"cellName": "FP8 Inference Flow: Linear Transformation Dispatch - model.py:L153-158",
+			"cellId": "bf3aae5a-2e61-4023-9fb1-98cccf4908df",
+			"visible": true,
+			"startLine": 153,
+			"endLine": 158,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "7b730b57-3ed3-437b-aedf-83452f90a215"
+				}
+			]
+		},
+		"a891f3ff-fc0f-4542-b007-b69f85051860": {
+			"path": "a891f3ff-fc0f-4542-b007-b69f85051860",
+			"fileName": "a891f3ff-fc0f-4542-b007-b69f85051860",
+			"cellName": "FP8 Inference Flow: Launch Activation Quantization Kernel - kernel.py:L38-57",
+			"cellId": "a891f3ff-fc0f-4542-b007-b69f85051860",
+			"visible": true,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f"
+		},
+		"inference/kernel.py-simstep-8981fb17-40e8-47e3-a137-7db4b4e767c1": {
+			"path": "inference/kernel.py-simstep-8981fb17-40e8-47e3-a137-7db4b4e767c1",
+			"fileName": "kernel.py",
+			"wiki": "The `act_quant` function serves as a Python wrapper that prepares for the execution of the Triton kernel. It allocates memory for the quantized output tensor `y` (FP8) and the scaling factor tensor `s` (FP32), then launches the `act_quant_kernel` on the GPU.",
+			"cellName": "FP8 Inference Flow: Launch Activation Quantization Kernel - kernel.py:L38-57",
+			"cellId": "a891f3ff-fc0f-4542-b007-b69f85051860",
+			"visible": true,
+			"startLine": 38,
+			"endLine": 57,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"parentPath": "inference/kernel.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "8981fb17-40e8-47e3-a137-7db4b4e767c1"
+				}
+			]
+		},
+		"ca76e097-8403-4429-9295-9c99b14ccd7f": {
+			"path": "ca76e097-8403-4429-9295-9c99b14ccd7f",
+			"fileName": "ca76e097-8403-4429-9295-9c99b14ccd7f",
+			"cellName": "FP8 Inference Flow: Perform FP8 Matrix Multiplication - model.py:L160",
+			"cellId": "ca76e097-8403-4429-9295-9c99b14ccd7f",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"inference/model.py-simstep-ef8ec40d-8d14-40ad-89b0-b97d484b10e8": {
+			"path": "inference/model.py-simstep-ef8ec40d-8d14-40ad-89b0-b97d484b10e8",
+			"fileName": "model.py",
+			"wiki": "Back in the `linear` function, with the activations now quantized to FP8, the `fp8_gemm` function is called. This function will perform the core matrix multiplication operation using the quantized activation, its calculated scale, the pre-quantized FP8 weight, and the weight's pre-computed scale.",
+			"cellName": "FP8 Inference Flow: Perform FP8 Matrix Multiplication - model.py:L160",
+			"cellId": "ca76e097-8403-4429-9295-9c99b14ccd7f",
+			"visible": true,
+			"startLine": 160,
+			"endLine": 160,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "ef8ec40d-8d14-40ad-89b0-b97d484b10e8"
+				}
+			]
+		},
+		"fc7cb542-c506-4ad5-b655-64e46c17fa60": {
+			"path": "fc7cb542-c506-4ad5-b655-64e46c17fa60",
+			"fileName": "fc7cb542-c506-4ad5-b655-64e46c17fa60",
+			"cellName": "FP8 Inference Flow: Execute Triton Kernel for GEMM - kernel.py:L120-172",
+			"cellId": "fc7cb542-c506-4ad5-b655-64e46c17fa60",
+			"visible": true,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f"
+		},
+		"inference/kernel.py-simstep-b6456c43-b3e7-4abd-b066-658df2a46dbb": {
+			"path": "inference/kernel.py-simstep-b6456c43-b3e7-4abd-b066-658df2a46dbb",
+			"fileName": "kernel.py",
+			"wiki": "The `fp8_gemm_kernel` executes on the GPU. It performs the matrix multiplication (`tl.dot`) on the FP8 tensors `a` and `b`. The crucial step is incorporating the scaling factors (`a_s` and `b_s`) into the accumulation, effectively performing the dequantization dynamically within the GEMM operation. This maintains FP8's speed and memory benefits while producing a higher-precision result.",
+			"cellName": "FP8 Inference Flow: Execute Triton Kernel for GEMM - kernel.py:L120-172",
+			"cellId": "fc7cb542-c506-4ad5-b655-64e46c17fa60",
+			"visible": true,
+			"startLine": 120,
+			"endLine": 172,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"parentPath": "inference/kernel.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "b6456c43-b3e7-4abd-b066-658df2a46dbb"
+				}
+			]
+		},
+		"39f8a6c2-5589-42fe-8fc3-a94c1536e950": {
+			"path": "39f8a6c2-5589-42fe-8fc3-a94c1536e950",
+			"fileName": "39f8a6c2-5589-42fe-8fc3-a94c1536e950",
+			"cellName": "Conversion Flow: Start FP8 to BF16 Weight Conversion - fp8_cast_bf16.py:L107-111",
+			"cellId": "39f8a6c2-5589-42fe-8fc3-a94c1536e950",
+			"visible": true,
+			"parentCellId": "da4459af-ed20-412a-aba1-4b1f05efe5d1"
+		},
+		"inference/fp8_cast_bf16.py-simstep-3e688546-0a88-4272-9baf-435a46b88dc4": {
+			"path": "inference/fp8_cast_bf16.py-simstep-3e688546-0a88-4272-9baf-435a46b88dc4",
+			"fileName": "fp8_cast_bf16.py",
+			"wiki": "For frameworks that do not natively support FP8, a user can run the `fp8_cast_bf16.py` script. The `main` function is the entry point, which orchestrates the process of reading FP8 weights, dequantizing them, and saving them in BF16 format.",
+			"cellName": "Conversion Flow: Start FP8 to BF16 Weight Conversion - fp8_cast_bf16.py:L107-111",
+			"cellId": "39f8a6c2-5589-42fe-8fc3-a94c1536e950",
+			"visible": true,
+			"startLine": 107,
+			"endLine": 111,
+			"parentCellId": "da4459af-ed20-412a-aba1-4b1f05efe5d1",
+			"parentPath": "inference/fp8_cast_bf16.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "3e688546-0a88-4272-9baf-435a46b88dc4"
+				}
+			]
+		},
+		"e893e1c1-223c-42e7-b59e-57d04d199c0e": {
+			"path": "e893e1c1-223c-42e7-b59e-57d04d199c0e",
+			"fileName": "e893e1c1-223c-42e7-b59e-57d04d199c0e",
+			"cellName": "Conversion Flow: Launch Weight Dequantization Kernel - kernel.py:L89-110",
+			"cellId": "e893e1c1-223c-42e7-b59e-57d04d199c0e",
+			"visible": true,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f"
+		},
+		"inference/kernel.py-simstep-34a45fd1-bc22-48eb-be24-610c64fb40a5": {
+			"path": "inference/kernel.py-simstep-34a45fd1-bc22-48eb-be24-610c64fb40a5",
+			"fileName": "kernel.py",
+			"wiki": "The `weight_dequant` function is a Python wrapper. It allocates an empty tensor `y` with the target default dtype (bfloat16) and launches the `weight_dequant_kernel` on the GPU to perform the actual dequantization.",
+			"cellName": "Conversion Flow: Launch Weight Dequantization Kernel - kernel.py:L89-110",
+			"cellId": "e893e1c1-223c-42e7-b59e-57d04d199c0e",
+			"visible": true,
+			"startLine": 89,
+			"endLine": 110,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"parentPath": "inference/kernel.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "34a45fd1-bc22-48eb-be24-610c64fb40a5"
+				}
+			]
+		},
+		"b3e53f37-cb0e-4329-b078-b75428e294b6": {
+			"path": "b3e53f37-cb0e-4329-b078-b75428e294b6",
+			"fileName": "b3e53f37-cb0e-4329-b078-b75428e294b6",
+			"cellName": "Conversion Flow: Perform Dequantization on GPU - kernel.py:L61-86",
+			"cellId": "b3e53f37-cb0e-4329-b078-b75428e294b6",
+			"visible": true,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f"
+		},
+		"inference/kernel.py-simstep-e1a1a2d8-4475-42f1-af8c-0157522f57c9": {
+			"path": "inference/kernel.py-simstep-e1a1a2d8-4475-42f1-af8c-0157522f57c9",
+			"fileName": "kernel.py",
+			"wiki": "The `weight_dequant_kernel` executes on the GPU. It loads the FP8 weight block `x` and its corresponding scaling factor `s`, casts the weight to float32, and performs the element-wise multiplication `x * s`. The result is a dequantized bfloat16 tensor.",
+			"cellName": "Conversion Flow: Perform Dequantization on GPU - kernel.py:L61-86",
+			"cellId": "b3e53f37-cb0e-4329-b078-b75428e294b6",
+			"visible": true,
+			"startLine": 61,
+			"endLine": 86,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"parentPath": "inference/kernel.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "e1a1a2d8-4475-42f1-af8c-0157522f57c9"
+				}
+			]
+		},
+		"c8464097-04cf-4283-bda0-883beaee7b6e": {
+			"path": "c8464097-04cf-4283-bda0-883beaee7b6e",
+			"fileName": "c8464097-04cf-4283-bda0-883beaee7b6e",
+			"cellName": "Conversion Flow: Save BF16 Weights - fp8_cast_bf16.py:L87-88",
+			"cellId": "c8464097-04cf-4283-bda0-883beaee7b6e",
+			"visible": true,
+			"parentCellId": "da4459af-ed20-412a-aba1-4b1f05efe5d1"
+		},
+		"inference/fp8_cast_bf16.py-simstep-2e3480fe-2a62-43f9-953c-6af2d8a30960": {
+			"path": "inference/fp8_cast_bf16.py-simstep-2e3480fe-2a62-43f9-953c-6af2d8a30960",
+			"fileName": "fp8_cast_bf16.py",
+			"wiki": "The `main` function receives the dequantized bfloat16 weight and stores it in a new state dictionary. This dictionary is then saved to a new `.safetensors` file in the specified output directory, completing the conversion for that tensor.",
+			"cellName": "Conversion Flow: Save BF16 Weights - fp8_cast_bf16.py:L87-88",
+			"cellId": "c8464097-04cf-4283-bda0-883beaee7b6e",
+			"visible": true,
+			"startLine": 87,
+			"endLine": 88,
+			"parentCellId": "da4459af-ed20-412a-aba1-4b1f05efe5d1",
+			"parentPath": "inference/fp8_cast_bf16.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "2e3480fe-2a62-43f9-953c-6af2d8a30960"
+				}
+			]
+		},
+		"adfeefeb-6ffd-4fb1-b3ea-654666f01775": {
+			"path": "adfeefeb-6ffd-4fb1-b3ea-654666f01775",
+			"fileName": "adfeefeb-6ffd-4fb1-b3ea-654666f01775",
+			"cellName": "FP8 Inference\nFlow: Pass\nActivations for\nQuantization",
+			"cellId": "adfeefeb-6ffd-4fb1-b3ea-654666f01775",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"generated-edge-simstep-afd6e45d-22ab-4548-b4da-02c02e9bbf85-adfeefeb-6ffd-4fb1-b3ea-654666f01775": {
+			"path": "generated-edge-simstep-afd6e45d-22ab-4548-b4da-02c02e9bbf85-adfeefeb-6ffd-4fb1-b3ea-654666f01775",
+			"fileName": "model.py",
+			"cellName": "FP8 Inference Flow: Pass Activations for Quantization",
+			"cellId": "adfeefeb-6ffd-4fb1-b3ea-654666f01775",
+			"visible": true,
+			"startLine": 159,
+			"endLine": 159,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "afd6e45d-22ab-4548-b4da-02c02e9bbf85"
+				}
+			]
+		},
+		"c27a616b-ebeb-46bd-b680-32de070d655e": {
+			"path": "c27a616b-ebeb-46bd-b680-32de070d655e",
+			"fileName": "c27a616b-ebeb-46bd-b680-32de070d655e",
+			"cellName": "FP8 Inference\nFlow: Execute\nTriton Kernel\nfor Quantization",
+			"cellId": "c27a616b-ebeb-46bd-b680-32de070d655e",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"generated-edge-simstep-2000fe72-ac7e-4780-9edf-b6072b8040de-c27a616b-ebeb-46bd-b680-32de070d655e": {
+			"path": "generated-edge-simstep-2000fe72-ac7e-4780-9edf-b6072b8040de-c27a616b-ebeb-46bd-b680-32de070d655e",
+			"fileName": "kernel.py",
+			"cellName": "FP8 Inference Flow: Execute Triton Kernel for Quantization",
+			"cellId": "c27a616b-ebeb-46bd-b680-32de070d655e",
+			"visible": true,
+			"startLine": 10,
+			"endLine": 35,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"parentPath": "inference/kernel.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "2000fe72-ac7e-4780-9edf-b6072b8040de"
+				}
+			]
+		},
+		"5771b2ac-7894-4d66-ac66-ef2e2bad08aa": {
+			"path": "5771b2ac-7894-4d66-ac66-ef2e2bad08aa",
+			"fileName": "5771b2ac-7894-4d66-ac66-ef2e2bad08aa",
+			"cellName": "FP8 Inference\nFlow: Pass\nQuantized Tensors\nto GEMM\nKernel",
+			"cellId": "5771b2ac-7894-4d66-ac66-ef2e2bad08aa",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"generated-edge-simstep-21de04e4-c5b8-481a-8a0f-f316f5190587-5771b2ac-7894-4d66-ac66-ef2e2bad08aa": {
+			"path": "generated-edge-simstep-21de04e4-c5b8-481a-8a0f-f316f5190587-5771b2ac-7894-4d66-ac66-ef2e2bad08aa",
+			"fileName": "kernel.py",
+			"cellName": "FP8 Inference Flow: Pass Quantized Tensors to GEMM Kernel",
+			"cellId": "5771b2ac-7894-4d66-ac66-ef2e2bad08aa",
+			"visible": true,
+			"startLine": 175,
+			"endLine": 196,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"parentPath": "inference/kernel.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "21de04e4-c5b8-481a-8a0f-f316f5190587"
+				}
+			]
+		},
+		"11f7b5b1-4d7d-4f10-804e-e70b09840500": {
+			"path": "11f7b5b1-4d7d-4f10-804e-e70b09840500",
+			"fileName": "11f7b5b1-4d7d-4f10-804e-e70b09840500",
+			"cellName": "FP8 Inference\nFlow: Return\nFinal Result",
+			"cellId": "11f7b5b1-4d7d-4f10-804e-e70b09840500",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"generated-edge-simstep-bf67524b-b685-47c1-a87c-2b6bc35c0c91-11f7b5b1-4d7d-4f10-804e-e70b09840500": {
+			"path": "generated-edge-simstep-bf67524b-b685-47c1-a87c-2b6bc35c0c91-11f7b5b1-4d7d-4f10-804e-e70b09840500",
+			"fileName": "model.py",
+			"cellName": "FP8 Inference Flow: Return Final Result",
+			"cellId": "11f7b5b1-4d7d-4f10-804e-e70b09840500",
+			"visible": true,
+			"startLine": 161,
+			"endLine": 163,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "bf67524b-b685-47c1-a87c-2b6bc35c0c91"
+				}
+			]
+		},
+		"29590677-243c-428c-b678-c04f1fc7f554": {
+			"path": "29590677-243c-428c-b678-c04f1fc7f554",
+			"fileName": "29590677-243c-428c-b678-c04f1fc7f554",
+			"cellName": "Conversion Flow:\nPass FP8\nWeight for\nDequantization",
+			"cellId": "29590677-243c-428c-b678-c04f1fc7f554",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"generated-edge-simstep-0b81e28f-2d46-4daa-a6ac-557d56cca313-29590677-243c-428c-b678-c04f1fc7f554": {
+			"path": "generated-edge-simstep-0b81e28f-2d46-4daa-a6ac-557d56cca313-29590677-243c-428c-b678-c04f1fc7f554",
+			"fileName": "fp8_cast_bf16.py",
+			"cellName": "Conversion Flow: Pass FP8 Weight for Dequantization",
+			"cellId": "29590677-243c-428c-b678-c04f1fc7f554",
+			"visible": true,
+			"startLine": 80,
+			"endLine": 80,
+			"parentCellId": "da4459af-ed20-412a-aba1-4b1f05efe5d1",
+			"parentPath": "inference/fp8_cast_bf16.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "0b81e28f-2d46-4daa-a6ac-557d56cca313"
+				}
+			]
+		},
+		"3714d2d7-04dd-4218-a9d7-de7208992c6a": {
+			"path": "3714d2d7-04dd-4218-a9d7-de7208992c6a",
+			"fileName": "3714d2d7-04dd-4218-a9d7-de7208992c6a",
+			"cellName": "Conversion Flow:\nExecute Triton\nKernel for\nDequantization",
+			"cellId": "3714d2d7-04dd-4218-a9d7-de7208992c6a",
+			"visible": true,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f"
+		},
+		"generated-edge-simstep-4f940598-d09b-4d93-b279-b85a6d397f31-3714d2d7-04dd-4218-a9d7-de7208992c6a": {
+			"path": "generated-edge-simstep-4f940598-d09b-4d93-b279-b85a6d397f31-3714d2d7-04dd-4218-a9d7-de7208992c6a",
+			"fileName": "kernel.py",
+			"cellName": "Conversion Flow: Execute Triton Kernel for Dequantization",
+			"cellId": "3714d2d7-04dd-4218-a9d7-de7208992c6a",
+			"visible": true,
+			"startLine": 109,
+			"endLine": 109,
+			"parentCellId": "66caa57a-7d50-4c7f-9650-7b275897335f",
+			"parentPath": "inference/kernel.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "4f940598-d09b-4d93-b279-b85a6d397f31"
+				}
+			]
+		},
+		"0c511692-312e-4a20-a296-b68c64e89833": {
+			"path": "0c511692-312e-4a20-a296-b68c64e89833",
+			"fileName": "0c511692-312e-4a20-a296-b68c64e89833",
+			"cellName": "Conversion Flow:\nReturn Dequantized\nWeight",
+			"cellId": "0c511692-312e-4a20-a296-b68c64e89833",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"generated-edge-simstep-699e0766-0ccc-4f56-94b8-12be2b64e2ac-0c511692-312e-4a20-a296-b68c64e89833": {
+			"path": "generated-edge-simstep-699e0766-0ccc-4f56-94b8-12be2b64e2ac-0c511692-312e-4a20-a296-b68c64e89833",
+			"fileName": "fp8_cast_bf16.py",
+			"cellName": "Conversion Flow: Return Dequantized Weight",
+			"cellId": "0c511692-312e-4a20-a296-b68c64e89833",
+			"visible": true,
+			"startLine": 80,
+			"endLine": 80,
+			"parentCellId": "da4459af-ed20-412a-aba1-4b1f05efe5d1",
+			"parentPath": "inference/fp8_cast_bf16.py",
+			"simSteps": [
+				{
+					"simulationKey": "How efficient FP8 inference works",
+					"simStepId": "699e0766-0ccc-4f56-94b8-12be2b64e2ac"
+				}
+			]
+		},
+		"be19f971-55ab-495d-b562-143a5dfabb21": {
+			"path": "be19f971-55ab-495d-b562-143a5dfabb21",
+			"fileName": "be19f971-55ab-495d-b562-143a5dfabb21",
+			"cellName": "Launch Distributed Inference - README.md:L296-297",
+			"cellId": "be19f971-55ab-495d-b562-143a5dfabb21",
+			"visible": true,
+			"parentCellId": "6cd69da6-c163-4e2f-85f2-4e4b4d167ff7"
+		},
+		"README.md-simstep-5f8c9731-b3c9-472b-80d7-684f64e8aad4": {
+			"path": "README.md-simstep-5f8c9731-b3c9-472b-80d7-684f64e8aad4",
+			"fileName": "README.md",
+			"wiki": "The user initiates the distributed inference process using `torchrun`. This command-line tool is responsible for setting up a distributed environment across multiple nodes and GPUs, launching the `generate.py` script on each process.",
+			"cellName": "Launch Distributed Inference - README.md:L296-297",
+			"cellId": "be19f971-55ab-495d-b562-143a5dfabb21",
+			"visible": true,
+			"startLine": 296,
+			"endLine": 297,
+			"parentCellId": "6cd69da6-c163-4e2f-85f2-4e4b4d167ff7",
+			"parentPath": "README.md",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "5f8c9731-b3c9-472b-80d7-684f64e8aad4"
+				}
+			]
+		},
+		"135f55ad-c670-4a93-aeb1-27c7de5963d6": {
+			"path": "135f55ad-c670-4a93-aeb1-27c7de5963d6",
+			"fileName": "135f55ad-c670-4a93-aeb1-27c7de5963d6",
+			"cellName": "Initialize Process Group - generate.py:L103-104",
+			"cellId": "135f55ad-c670-4a93-aeb1-27c7de5963d6",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-40e8b95d-7ac2-494d-b359-716a57539176": {
+			"path": "inference/generate.py-simstep-40e8b95d-7ac2-494d-b359-716a57539176",
+			"fileName": "generate.py",
+			"wiki": "Each `generate.py` process initializes the PyTorch distributed process group using `dist.init_process_group`. This step establishes communication channels between all processes (GPUs) using the NCCL backend, enabling them to exchange tensors.",
+			"cellName": "Initialize Process Group - generate.py:L103-104",
+			"cellId": "135f55ad-c670-4a93-aeb1-27c7de5963d6",
+			"visible": true,
+			"startLine": 103,
+			"endLine": 104,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "40e8b95d-7ac2-494d-b359-716a57539176"
+				}
+			]
+		},
+		"a9691dfb-ba90-414c-a497-65f025d22f4a": {
+			"path": "a9691dfb-ba90-414c-a497-65f025d22f4a",
+			"fileName": "a9691dfb-ba90-414c-a497-65f025d22f4a",
+			"cellName": "Instantiate Transformer Model with Tensor Parallelism - generate.py:L3-108",
+			"cellId": "a9691dfb-ba90-414c-a497-65f025d22f4a",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-334f8055-3564-464e-88e7-962439ca1160": {
+			"path": "inference/generate.py-simstep-334f8055-3564-464e-88e7-962439ca1160",
+			"fileName": "generate.py",
+			"wiki": "The main process instantiates the `Transformer` model. During initialization, the model reads the distributed configuration (world size, rank). Tensor-parallel layers like `ColumnParallelLinear` and `RowParallelLinear` are created, where weight matrices are partitioned across the available GPUs.",
+			"cellName": "Instantiate Transformer Model with Tensor Parallelism - generate.py:L3-108",
+			"cellId": "a9691dfb-ba90-414c-a497-65f025d22f4a",
+			"visible": true,
+			"startLine": 3,
+			"endLine": 108,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "334f8055-3564-464e-88e7-962439ca1160"
+				}
+			]
+		},
+		"ace2abbf-8af5-4b41-829a-1aef065eef8b": {
+			"path": "ace2abbf-8af5-4b41-829a-1aef065eef8b",
+			"fileName": "ace2abbf-8af5-4b41-829a-1aef065eef8b",
+			"cellName": "Column-Parallel Computation - model.py:L425",
+			"cellId": "ace2abbf-8af5-4b41-829a-1aef065eef8b",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"inference/model.py-simstep-fadd6e81-02f2-4943-b6fd-675ef0b64d65": {
+			"path": "inference/model.py-simstep-fadd6e81-02f2-4943-b6fd-675ef0b64d65",
+			"fileName": "model.py",
+			"wiki": "Inside a transformer block's attention layer (`MLA`), `ColumnParallelLinear` is used for query, key, and value projections (e.g., `wq`). The weight matrix is split column-wise across GPUs. Each GPU computes only a slice of the output features. This operation is self-contained on each GPU and requires no immediate communication.",
+			"cellName": "Column-Parallel Computation - model.py:L425",
+			"cellId": "ace2abbf-8af5-4b41-829a-1aef065eef8b",
+			"visible": true,
+			"startLine": 425,
+			"endLine": 425,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "fadd6e81-02f2-4943-b6fd-675ef0b64d65"
+				}
+			]
+		},
+		"9bcca4e1-bb92-4665-86f5-c1f1089116fd": {
+			"path": "9bcca4e1-bb92-4665-86f5-c1f1089116fd",
+			"fileName": "9bcca4e1-bb92-4665-86f5-c1f1089116fd",
+			"cellName": "Row-Parallel Computation and Aggregation - model.py:L433",
+			"cellId": "9bcca4e1-bb92-4665-86f5-c1f1089116fd",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"inference/model.py-simstep-e37b58fa-6cbb-4b4f-a684-62d6e1ec3a8d": {
+			"path": "inference/model.py-simstep-e37b58fa-6cbb-4b4f-a684-62d6e1ec3a8d",
+			"fileName": "model.py",
+			"wiki": "The output projection of the attention layer (`wo`) is a `RowParallelLinear` layer. Its weight matrix is split row-wise. Each GPU computes a partial result based on its slice of the input features. To get the final result, these partial results must be summed across all GPUs.",
+			"cellName": "Row-Parallel Computation and Aggregation - model.py:L433",
+			"cellId": "9bcca4e1-bb92-4665-86f5-c1f1089116fd",
+			"visible": true,
+			"startLine": 433,
+			"endLine": 433,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "e37b58fa-6cbb-4b4f-a684-62d6e1ec3a8d"
+				}
+			]
+		},
+		"cda88692-38f8-4213-a123-883d33542976": {
+			"path": "cda88692-38f8-4213-a123-883d33542976",
+			"fileName": "cda88692-38f8-4213-a123-883d33542976",
+			"cellName": "All-Reduce Communication - model.py:L263-264",
+			"cellId": "cda88692-38f8-4213-a123-883d33542976",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"inference/model.py-simstep-693f1026-5630-4ed6-8a0e-b3ed75bedb71": {
+			"path": "inference/model.py-simstep-693f1026-5630-4ed6-8a0e-b3ed75bedb71",
+			"fileName": "model.py",
+			"wiki": "The `dist.all_reduce` operation is called. This function sums the tensors from all processes and distributes the final result back to every process. Now, each GPU holds the complete, correct output from the `RowParallelLinear` layer.",
+			"cellName": "All-Reduce Communication - model.py:L263-264",
+			"cellId": "cda88692-38f8-4213-a123-883d33542976",
+			"visible": true,
+			"startLine": 263,
+			"endLine": 264,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "693f1026-5630-4ed6-8a0e-b3ed75bedb71"
+				}
+			]
+		},
+		"125b2cbe-c32b-4f69-acc4-9603246997d4": {
+			"path": "125b2cbe-c32b-4f69-acc4-9603246997d4",
+			"fileName": "125b2cbe-c32b-4f69-acc4-9603246997d4",
+			"cellName": "Mixture-of-Experts (MoE) Computation - model.py:L684-689",
+			"cellId": "125b2cbe-c32b-4f69-acc4-9603246997d4",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"inference/model.py-simstep-cf999bc1-4713-425e-90dd-3d3c40a108c1": {
+			"path": "inference/model.py-simstep-cf999bc1-4713-425e-90dd-3d3c40a108c1",
+			"fileName": "model.py",
+			"wiki": "In the MoE layer, each rank is responsible for a subset of the total experts. The gating network determines which tokens are routed to which experts. Each rank computes the output only for its local experts, resulting in a partial output tensor `y` that contains the results for tokens routed to its experts.",
+			"cellName": "Mixture-of-Experts (MoE) Computation - model.py:L684-689",
+			"cellId": "125b2cbe-c32b-4f69-acc4-9603246997d4",
+			"visible": true,
+			"startLine": 684,
+			"endLine": 689,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "cf999bc1-4713-425e-90dd-3d3c40a108c1"
+				}
+			]
+		},
+		"a006bc12-cc4b-4caa-a980-58df1316bef4": {
+			"path": "a006bc12-cc4b-4caa-a980-58df1316bef4",
+			"fileName": "a006bc12-cc4b-4caa-a980-58df1316bef4",
+			"cellName": "MoE All-Reduce Communication - model.py:L691-692",
+			"cellId": "a006bc12-cc4b-4caa-a980-58df1316bef4",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"inference/model.py-simstep-f96bbdc9-856b-4dc2-9d2d-a21357604833": {
+			"path": "inference/model.py-simstep-f96bbdc9-856b-4dc2-9d2d-a21357604833",
+			"fileName": "model.py",
+			"wiki": "A `dist.all_reduce` call sums the partial outputs from all ranks. This combines the computations from all the different experts, ensuring that the final output on each rank reflects the contributions from all activated experts, regardless of which GPU they reside on.",
+			"cellName": "MoE All-Reduce Communication - model.py:L691-692",
+			"cellId": "a006bc12-cc4b-4caa-a980-58df1316bef4",
+			"visible": true,
+			"startLine": 691,
+			"endLine": 692,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "f96bbdc9-856b-4dc2-9d2d-a21357604833"
+				}
+			]
+		},
+		"c8cf54bf-a366-4aa9-9360-8e8f76293f38": {
+			"path": "c8cf54bf-a366-4aa9-9360-8e8f76293f38",
+			"fileName": "c8cf54bf-a366-4aa9-9360-8e8f76293f38",
+			"cellName": "All-Gather Final Logits - model.py:L4-773",
+			"cellId": "c8cf54bf-a366-4aa9-9360-8e8f76293f38",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"inference/model.py-simstep-d5c9716b-f7d5-44e1-a58c-fdd28660aafa": {
+			"path": "inference/model.py-simstep-d5c9716b-f7d5-44e1-a58c-fdd28660aafa",
+			"fileName": "model.py",
+			"wiki": "To obtain the full logits for token sampling, `dist.all_gather` is used. This operation collects the sharded logits from all GPUs and concatenates them, so that every GPU ends up with a complete copy of the full logits tensor covering the entire vocabulary.",
+			"cellName": "All-Gather Final Logits - model.py:L4-773",
+			"cellId": "c8cf54bf-a366-4aa9-9360-8e8f76293f38",
+			"visible": true,
+			"startLine": 4,
+			"endLine": 773,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "d5c9716b-f7d5-44e1-a58c-fdd28660aafa"
+				}
+			]
+		},
+		"d9955bac-2053-459e-890e-d79e3d0e2218": {
+			"path": "d9955bac-2053-459e-890e-d79e3d0e2218",
+			"fileName": "d9955bac-2053-459e-890e-d79e3d0e2218",
+			"cellName": "Sample Next Token - generate.py:L62-65",
+			"cellId": "d9955bac-2053-459e-890e-d79e3d0e2218",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"inference/generate.py-simstep-cabfc866-8d46-4104-8c04-4950ec6630ad": {
+			"path": "inference/generate.py-simstep-cabfc866-8d46-4104-8c04-4950ec6630ad",
+			"fileName": "generate.py",
+			"wiki": "Back in `generate.py`, the `sample` function takes the full logits tensor and uses temperature-based sampling (or argmax) to select the next token. This concludes one step of the generation loop. The process repeats until the desired number of tokens is generated.",
+			"cellName": "Sample Next Token - generate.py:L62-65",
+			"cellId": "d9955bac-2053-459e-890e-d79e3d0e2218",
+			"visible": true,
+			"startLine": 62,
+			"endLine": 65,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "cabfc866-8d46-4104-8c04-4950ec6630ad"
+				}
+			]
+		},
+		"129dfb44-bcb7-46de-a9bb-465dcbd11d80": {
+			"path": "129dfb44-bcb7-46de-a9bb-465dcbd11d80",
+			"fileName": "129dfb44-bcb7-46de-a9bb-465dcbd11d80",
+			"cellName": "Process Spawning",
+			"cellId": "129dfb44-bcb7-46de-a9bb-465dcbd11d80",
+			"visible": true
+		},
+		"generated-edge-simstep-bbaffc24-4cc1-4de7-bc33-4aaebc1e2874-129dfb44-bcb7-46de-a9bb-465dcbd11d80": {
+			"path": "generated-edge-simstep-bbaffc24-4cc1-4de7-bc33-4aaebc1e2874-129dfb44-bcb7-46de-a9bb-465dcbd11d80",
+			"fileName": "generate.py",
+			"cellName": "Process Spawning",
+			"cellId": "129dfb44-bcb7-46de-a9bb-465dcbd11d80",
+			"visible": true,
+			"startLine": 100,
+			"endLine": 102,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "bbaffc24-4cc1-4de7-bc33-4aaebc1e2874"
+				}
+			]
+		},
+		"cd0d5786-4c14-445e-8fef-96c679ba21a1": {
+			"path": "cd0d5786-4c14-445e-8fef-96c679ba21a1",
+			"fileName": "cd0d5786-4c14-445e-8fef-96c679ba21a1",
+			"cellName": "Distributed Environment\nActive",
+			"cellId": "cd0d5786-4c14-445e-8fef-96c679ba21a1",
+			"visible": true,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c"
+		},
+		"generated-edge-simstep-4bc7586c-6373-4507-accc-97c979acd9bc-cd0d5786-4c14-445e-8fef-96c679ba21a1": {
+			"path": "generated-edge-simstep-4bc7586c-6373-4507-accc-97c979acd9bc-cd0d5786-4c14-445e-8fef-96c679ba21a1",
+			"fileName": "model.py",
+			"cellName": "Distributed Environment Active",
+			"cellId": "cd0d5786-4c14-445e-8fef-96c679ba21a1",
+			"visible": true,
+			"startLine": 757,
+			"endLine": 759,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "4bc7586c-6373-4507-accc-97c979acd9bc"
+				}
+			]
+		},
+		"5ba5239b-004e-4a41-89c0-17ed3b098bb8": {
+			"path": "5ba5239b-004e-4a41-89c0-17ed3b098bb8",
+			"fileName": "5ba5239b-004e-4a41-89c0-17ed3b098bb8",
+			"cellName": "Model Forward\nPass Initiated",
+			"cellId": "5ba5239b-004e-4a41-89c0-17ed3b098bb8",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"generated-edge-simstep-b8126c51-b1fb-4775-b887-61c8f08278ac-5ba5239b-004e-4a41-89c0-17ed3b098bb8": {
+			"path": "generated-edge-simstep-b8126c51-b1fb-4775-b887-61c8f08278ac-5ba5239b-004e-4a41-89c0-17ed3b098bb8",
+			"fileName": "generate.py",
+			"cellName": "Model Forward Pass Initiated",
+			"cellId": "5ba5239b-004e-4a41-89c0-17ed3b098bb8",
+			"visible": true,
+			"startLine": 61,
+			"endLine": 61,
+			"parentCellId": "f10a4b0c-b693-4808-bd44-1912d1fc1c3c",
+			"parentPath": "inference/generate.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "b8126c51-b1fb-4775-b887-61c8f08278ac"
+				}
+			]
+		},
+		"6859bd0d-d7fc-4590-991f-58349dad01db": {
+			"path": "6859bd0d-d7fc-4590-991f-58349dad01db",
+			"fileName": "6859bd0d-d7fc-4590-991f-58349dad01db",
+			"cellName": "Transmit Sharded\nTensors",
+			"cellId": "6859bd0d-d7fc-4590-991f-58349dad01db",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"generated-edge-simstep-74dfb9e3-d4e2-45e8-bda9-617c05aeca87-6859bd0d-d7fc-4590-991f-58349dad01db": {
+			"path": "generated-edge-simstep-74dfb9e3-d4e2-45e8-bda9-617c05aeca87-6859bd0d-d7fc-4590-991f-58349dad01db",
+			"fileName": "model.py",
+			"cellName": "Transmit Sharded Tensors",
+			"cellId": "6859bd0d-d7fc-4590-991f-58349dad01db",
+			"visible": true,
+			"startLine": 233,
+			"endLine": 234,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "74dfb9e3-d4e2-45e8-bda9-617c05aeca87"
+				}
+			]
+		},
+		"4b358b04-f5b4-49af-856f-ede61a0865ee": {
+			"path": "4b358b04-f5b4-49af-856f-ede61a0865ee",
+			"fileName": "4b358b04-f5b4-49af-856f-ede61a0865ee",
+			"cellName": "Distribute Partial\nResults for\nReduction",
+			"cellId": "4b358b04-f5b4-49af-856f-ede61a0865ee",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"generated-edge-simstep-8602e6ed-9418-43c5-9ecf-d1f826eac3f0-4b358b04-f5b4-49af-856f-ede61a0865ee": {
+			"path": "generated-edge-simstep-8602e6ed-9418-43c5-9ecf-d1f826eac3f0-4b358b04-f5b4-49af-856f-ede61a0865ee",
+			"fileName": "model.py",
+			"cellName": "Distribute Partial Results for Reduction",
+			"cellId": "4b358b04-f5b4-49af-856f-ede61a0865ee",
+			"visible": true,
+			"startLine": 262,
+			"endLine": 262,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "8602e6ed-9418-43c5-9ecf-d1f826eac3f0"
+				}
+			]
+		},
+		"7309b263-a324-467c-a0e8-6d5c5c3149d3": {
+			"path": "7309b263-a324-467c-a0e8-6d5c5c3149d3",
+			"fileName": "7309b263-a324-467c-a0e8-6d5c5c3149d3",
+			"cellName": "Transmit Aggregated\nAttention Output",
+			"cellId": "7309b263-a324-467c-a0e8-6d5c5c3149d3",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"generated-edge-simstep-eb5eeaed-0905-49e9-82e7-edf10c53b6e8-7309b263-a324-467c-a0e8-6d5c5c3149d3": {
+			"path": "generated-edge-simstep-eb5eeaed-0905-49e9-82e7-edf10c53b6e8-7309b263-a324-467c-a0e8-6d5c5c3149d3",
+			"fileName": "model.py",
+			"cellName": "Transmit Aggregated Attention Output",
+			"cellId": "7309b263-a324-467c-a0e8-6d5c5c3149d3",
+			"visible": true,
+			"startLine": 733,
+			"endLine": 733,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "eb5eeaed-0905-49e9-82e7-edf10c53b6e8"
+				}
+			]
+		},
+		"33a36d6a-4e79-4c54-8f51-4c16d27d8075": {
+			"path": "33a36d6a-4e79-4c54-8f51-4c16d27d8075",
+			"fileName": "33a36d6a-4e79-4c54-8f51-4c16d27d8075",
+			"cellName": "Distribute Partial\nMoE Outputs",
+			"cellId": "33a36d6a-4e79-4c54-8f51-4c16d27d8075",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"generated-edge-simstep-669637bd-8119-41c9-a091-59e5dbf5817e-33a36d6a-4e79-4c54-8f51-4c16d27d8075": {
+			"path": "generated-edge-simstep-669637bd-8119-41c9-a091-59e5dbf5817e-33a36d6a-4e79-4c54-8f51-4c16d27d8075",
+			"fileName": "model.py",
+			"cellName": "Distribute Partial MoE Outputs",
+			"cellId": "33a36d6a-4e79-4c54-8f51-4c16d27d8075",
+			"visible": true,
+			"startLine": 682,
+			"endLine": 682,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "669637bd-8119-41c9-a091-59e5dbf5817e"
+				}
+			]
+		},
+		"1ce50f47-e937-4bd0-89b9-0c535d21139f": {
+			"path": "1ce50f47-e937-4bd0-89b9-0c535d21139f",
+			"fileName": "1ce50f47-e937-4bd0-89b9-0c535d21139f",
+			"cellName": "Transmit Final\nLogits for\nAggregation",
+			"cellId": "1ce50f47-e937-4bd0-89b9-0c535d21139f",
+			"visible": true,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1"
+		},
+		"generated-edge-simstep-61d58d74-b9c4-44fd-8d0b-fc0b2ec9078d-1ce50f47-e937-4bd0-89b9-0c535d21139f": {
+			"path": "generated-edge-simstep-61d58d74-b9c4-44fd-8d0b-fc0b2ec9078d-1ce50f47-e937-4bd0-89b9-0c535d21139f",
+			"fileName": "model.py",
+			"cellName": "Transmit Final Logits for Aggregation",
+			"cellId": "1ce50f47-e937-4bd0-89b9-0c535d21139f",
+			"visible": true,
+			"startLine": 4,
+			"endLine": 773,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "61d58d74-b9c4-44fd-8d0b-fc0b2ec9078d"
+				}
+			]
+		},
+		"17665480-10c1-4441-8de3-d5ee769c3fac": {
+			"path": "17665480-10c1-4441-8de3-d5ee769c3fac",
+			"fileName": "17665480-10c1-4441-8de3-d5ee769c3fac",
+			"cellName": "Return Full\nLogits",
+			"cellId": "17665480-10c1-4441-8de3-d5ee769c3fac",
+			"visible": true,
+			"parentCellId": "b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2"
+		},
+		"generated-edge-simstep-7661e4eb-d996-44ff-8413-fcf66b2905bb-17665480-10c1-4441-8de3-d5ee769c3fac": {
+			"path": "generated-edge-simstep-7661e4eb-d996-44ff-8413-fcf66b2905bb-17665480-10c1-4441-8de3-d5ee769c3fac",
+			"fileName": "model.py",
+			"cellName": "Return Full Logits",
+			"cellId": "17665480-10c1-4441-8de3-d5ee769c3fac",
+			"visible": true,
+			"startLine": 4,
+			"endLine": 773,
+			"parentCellId": "cd1362ea-766b-42c6-9465-d48a7b0c3ce1",
+			"parentPath": "inference/model.py",
+			"simSteps": [
+				{
+					"simulationKey": "How distributed multi-GPU/multi-node inference works",
+					"simStepId": "7661e4eb-d996-44ff-8413-fcf66b2905bb"
+				}
+			]
+		}
+	},
+	"simulations": {
+		"How local text generation works": {
+			"name": "How local text generation works",
+			"simSteps": [
+				{
+					"simStepId": "f40a6b22-9da0-470b-b8a1-8e573fe1fe86",
+					"diagramNodeId": "0746b257-ccb2-473d-8c08-730666dde2ae",
+					"simStepLabel": "Execution Trigger: User runs the generation script",
+					"simStepDescription": "A user initiates the text generation process by executing the `generate.py` script using `torchrun`. They specify arguments such as the model checkpoint path, config file, and either `--interactive` for a chat session or `--input-file` for batch processing.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "README.md",
+						"startLine": "296",
+						"endLine": "296",
+						"relevantVariables": [
+							"generate.py",
+							"--ckpt-path",
+							"--config",
+							"--interactive",
+							"--temperature",
+							"--max-new-tokens"
+						]
+					},
+					"inputDataExample": "{\"command\": \"torchrun --nnodes 2 --nproc-per-node 8 generate.py --ckpt-path /path/to/DeepSeek-V3-Demo --config configs/config_671B.json --interactive --temperature 0.7 --max-new-tokens 200\"}",
+					"outputDataExample": "{\"parsed_args\": {\"ckpt_path\": \"/path/to/DeepSeek-V3-Demo\", \"config\": \"configs/config_671B.json\", \"input_file\": \"\", \"interactive\": true, \"max_new_tokens\": 200, \"temperature\": 0.7}}"
+				},
+				{
+					"simStepId": "85950b06-a5a7-41c4-93bb-de3383a8b2eb",
+					"diagramNodeId": "10c7ffb7-97d5-42f5-91bf-68cc3ff1a660",
+					"simStepLabel": "Pass Command-Line Arguments",
+					"simStepDescription": "The command-line arguments are passed from the user's shell to the Python script for parsing.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "176",
+						"endLine": "183",
+						"relevantVariables": [
+							"parser",
+							"args"
+						]
+					},
+					"inputDataExample": "{\"parsed_args\": {\"ckpt_path\": \"/path/to/DeepSeek-V3-Demo\", \"config\": \"configs/config_671B.json\", \"input_file\": \"\", \"interactive\": true, \"max_new_tokens\": 200, \"temperature\": 0.7}}",
+					"outputDataExample": "{\"parsed_args\": {\"ckpt_path\": \"/path/to/DeepSeek-V3-Demo\", \"config\": \"configs/config_671B.json\", \"input_file\": \"\", \"interactive\": true, \"max_new_tokens\": 200, \"temperature\": 0.7}}"
+				},
+				{
+					"simStepId": "5a4a86e0-18c8-493f-abe7-842451dcdcd5",
+					"diagramNodeId": "5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0",
+					"simStepLabel": "Parse Command-Line Arguments",
+					"simStepDescription": "The script's entry point (`if __name__ == '__main__':`) uses `ArgumentParser` to parse the provided command-line flags and values. It also asserts that either interactive mode or an input file is specified.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "176",
+						"endLine": "184",
+						"relevantVariables": [
+							"ArgumentParser",
+							"parser.add_argument",
+							"parser.parse_args",
+							"assert"
+						]
+					},
+					"inputDataExample": "{\"argv\": [\"generate.py\", \"--ckpt-path\", \"/path/to/DeepSeek-V3-Demo\", \"--config\", \"configs/config_671B.json\", \"--interactive\"]}",
+					"outputDataExample": "{\"args\": {\"ckpt_path\": \"/path/to/DeepSeek-V3-Demo\", \"config\": \"configs/config_671B.json\", \"input_file\": \"\", \"interactive\": true, \"max_new_tokens\": 200, \"temperature\": 0.2}}"
+				},
+				{
+					"simStepId": "ebc39b55-82b3-4e4e-a11e-e03cc15cbfbf",
+					"diagramNodeId": "ea186c00-bfa0-4fed-8311-f10e05c959fa",
+					"simStepLabel": "Invoke Main Logic",
+					"simStepDescription": "The parsed arguments are passed as parameters to the `main` function to start the core generation process.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "185",
+						"endLine": "185",
+						"relevantVariables": [
+							"main",
+							"args.ckpt_path",
+							"args.config",
+							"args.input_file",
+							"args.interactive",
+							"args.max_new_tokens",
+							"args.temperature"
+						]
+					},
+					"inputDataExample": "{\"args\": {\"ckpt_path\": \"/path/to/DeepSeek-V3-Demo\", \"config\": \"configs/config_671B.json\", \"input_file\": \"\", \"interactive\": true, \"max_new_tokens\": 200, \"temperature\": 0.7}}",
+					"outputDataExample": "{\"args\": {\"ckpt_path\": \"/path/to/DeepSeek-V3-Demo\", \"config\": \"configs/config_671B.json\", \"input_file\": \"\", \"interactive\": true, \"max_new_tokens\": 200, \"temperature\": 0.7}}"
+				},
+				{
+					"simStepId": "9e9d8cfc-a497-4d6c-b14b-75982bfac0c4",
+					"diagramNodeId": "1b47e7a4-501b-4269-bb15-484dd2b84e89",
+					"simStepLabel": "Initialize Model and Tokenizer",
+					"simStepDescription": "The `main` function initializes the environment, loads the model configuration (`ModelArgs`), instantiates the Transformer model, and loads the tokenizer. Finally, it loads the pre-trained model weights from the specified checkpoint file.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "112",
+						"endLine": "119",
+						"relevantVariables": [
+							"ModelArgs",
+							"Transformer",
+							"AutoTokenizer.from_pretrained",
+							"load_model"
+						]
+					},
+					"inputDataExample": "{\"ckpt_path\": \"/path/to/DeepSeek-V3-Demo\", \"config\": \"configs/config_671B.json\"}",
+					"outputDataExample": "{\"model\": \"<Transformer object>\", \"tokenizer\": \"<AutoTokenizer object>\"}"
+				},
+				{
+					"simStepId": "608a3136-401b-4152-9705-55177d677876",
+					"diagramNodeId": "a347e119-9278-4bbb-b0fe-1de7fc106f1e",
+					"simStepLabel": "User Provides Input",
+					"simStepDescription": "In interactive mode, the program enters a loop and prompts the user for input via the command line.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "125",
+						"endLine": "125",
+						"relevantVariables": [
+							"prompt",
+							"input"
+						]
+					},
+					"inputDataExample": "{\"prompt\": \">>> Hello, how are you?\"}",
+					"outputDataExample": "{\"prompt\": \">>> Hello, how are you?\"}"
+				},
+				{
+					"simStepId": "bb9dcd82-c015-4d24-bee4-5a226555232c",
+					"diagramNodeId": "a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b",
+					"simStepLabel": "Format and Tokenize Prompt",
+					"simStepDescription": "The user's input is added to the conversation history (`messages`). The `tokenizer.apply_chat_template` method is then used to convert the entire conversation history into a properly formatted list of token IDs that the model can understand.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "139",
+						"endLine": "140",
+						"relevantVariables": [
+							"messages",
+							"prompt_tokens",
+							"tokenizer.apply_chat_template"
+						]
+					},
+					"inputDataExample": "{\"messages\": [{\"role\": \"user\", \"content\": \"Hello, how are you?\"}]}",
+					"outputDataExample": "{\"prompt_tokens\": [100257, 100278, 100259, 100262, 17244, 12, 759, 403, 389, 2, 100279, 100278, 100260, 100262]}"
+				},
+				{
+					"simStepId": "5c5b9b38-b8d7-4c4d-ba60-d4da1eff5015",
+					"diagramNodeId": "92db04f4-2356-44a7-96b5-3fe453fcb8a8",
+					"simStepLabel": "Pass Tokens to Generation Function",
+					"simStepDescription": "The list of prompt tokens is passed to the `generate` function to begin the token-by-token generation process.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "141",
+						"endLine": "141",
+						"relevantVariables": [
+							"generate",
+							"model",
+							"prompt_tokens",
+							"max_new_tokens",
+							"temperature"
+						]
+					},
+					"inputDataExample": "{\"prompt_tokens\": [100257, 100278, 100259, 100262, 17244, 12, 759, 403, 389, 2, 100279, 100278, 100260, 100262]}",
+					"outputDataExample": "{\"prompt_tokens\": [100257, 100278, 100259, 100262, 17244, 12, 759, 403, 389, 2, 100279, 100278, 100260, 100262]}"
+				},
+				{
+					"simStepId": "bc146555-06c3-45e8-b556-2e74e0dffc38",
+					"diagramNodeId": "1f667322-0be1-486d-a862-785492ebcccb",
+					"simStepLabel": "Iterative Token Generation",
+					"simStepDescription": "The `generate` function enters a loop, generating one token at a time. In each iteration, it calls `model.forward()` to get the probability distribution (logits) for the next token. It then calls the `sample` function to select the next token based on the specified temperature.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "60",
+						"endLine": "67",
+						"relevantVariables": [
+							"cur_pos",
+							"model.forward",
+							"logits",
+							"sample",
+							"next_token"
+						]
+					},
+					"inputDataExample": "{\"tokens\": {\"shape\": [1, 55], \"device\": \"cuda\"}, \"prev_pos\": 54}",
+					"outputDataExample": "{\"next_token\": 1533}"
+				},
+				{
+					"simStepId": "0d1264e5-eec6-4b47-aa44-9e0a62c43ef0",
+					"diagramNodeId": "9020a9a2-77e9-49c4-8070-7df6b663bed7",
+					"simStepLabel": "Pass Logits for Sampling",
+					"simStepDescription": "The raw logits produced by the model are passed to the `sample` function for temperature-based scaling and probabilistic selection.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "63",
+						"endLine": "63",
+						"relevantVariables": [
+							"sample",
+							"logits",
+							"temperature"
+						]
+					},
+					"inputDataExample": "{\"logits\": {\"shape\": [1, 32000], \"dtype\": \"bfloat16\"}, \"temperature\": 0.7}",
+					"outputDataExample": "{\"logits\": {\"shape\": [1, 32000], \"dtype\": \"bfloat16\"}, \"temperature\": 0.7}"
+				},
+				{
+					"simStepId": "d839c3db-93e5-4ebe-81db-23102724193d",
+					"diagramNodeId": "1a702b06-43a1-4471-98c2-030a8fac62ce",
+					"simStepLabel": "Sample Next Token",
+					"simStepDescription": "The `sample` function adjusts the logits using the temperature value, converts them to probabilities using softmax, and then performs a weighted random sampling to select the next token.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "25",
+						"endLine": "27",
+						"relevantVariables": [
+							"logits",
+							"temperature",
+							"torch.softmax",
+							"probs",
+							"argmax"
+						]
+					},
+					"inputDataExample": "{\"logits\": {\"shape\": [1, 32000], \"dtype\": \"bfloat16\"}, \"temperature\": 0.7}",
+					"outputDataExample": "{\"sampled_token\": 1533}"
+				},
+				{
+					"simStepId": "b16e01da-fbf2-4b33-96d9-66d6678a9e40",
+					"diagramNodeId": "caa82f9a-05a2-4f4e-9158-6b77ab593ceb",
+					"simStepLabel": "Return Completion Tokens",
+					"simStepDescription": "After the generation loop completes (either by reaching `max_new_tokens` or generating an end-of-sequence token), the `generate` function returns the list of newly generated completion tokens.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "78",
+						"endLine": "78",
+						"relevantVariables": [
+							"completion_tokens"
+						]
+					},
+					"inputDataExample": "{\"completion_tokens\": [1533, 437, 264, 23393, 2486, 12, 264, 21952, 1576, 2378, 100261]}",
+					"outputDataExample": "{\"completion_tokens\": [1533, 437, 264, 23393, 2486, 12, 264, 21952, 1576, 2378, 100261]}"
+				},
+				{
+					"simStepId": "6f075814-cec0-4a3b-84e1-4eade83a09af",
+					"diagramNodeId": "694ab3ba-aad9-40c4-aaa0-fef15b18c84c",
+					"simStepLabel": "Decode Tokens to String",
+					"simStepDescription": "Back in the `main` function, the list of completion tokens is passed to `tokenizer.decode`. This converts the integer token IDs back into a human-readable string, skipping any special tokens like padding or end-of-sequence.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "142",
+						"endLine": "142",
+						"relevantVariables": [
+							"completion",
+							"tokenizer.decode",
+							"completion_tokens"
+						]
+					},
+					"inputDataExample": "{\"completion_tokens\": [[1533, 437, 264, 23393, 2486, 12, 264, 21952, 1576, 2378, 100261]]}",
+					"outputDataExample": "{\"completion\": \"I am DeepSeek, a large language model created by DeepSeek AI.\"}"
+				},
+				{
+					"simStepId": "fe9d2525-1f59-44bc-a9b6-4caca71c2c6e",
+					"diagramNodeId": "7d3ca400-1202-41ef-b9e9-789e06de42b6",
+					"simStepLabel": "Display Generated Text",
+					"simStepDescription": "The final decoded string is sent to the standard output to be displayed to the user in the console.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "143",
+						"endLine": "143",
+						"relevantVariables": [
+							"print",
+							"completion"
+						]
+					},
+					"inputDataExample": "{\"completion\": \"I am DeepSeek, a large language model created by DeepSeek AI.\"}",
+					"outputDataExample": "{\"completion\": \"I am DeepSeek, a large language model created by DeepSeek AI.\"}"
+				},
+				{
+					"simStepId": "934e399a-eb6c-48e8-b744-adeedf7a9363",
+					"diagramNodeId": "fed7b983-e9af-45dd-9f8e-b5c0513ed02b",
+					"simStepLabel": "Output to User and Update History",
+					"simStepDescription": "The generated text is printed to the console for the user to see. The completion is then added to the `messages` list with the role 'assistant' to maintain the context for the next turn in the conversation.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "143",
+						"endLine": "144",
+						"relevantVariables": [
+							"print",
+							"completion",
+							"messages.append"
+						]
+					},
+					"inputDataExample": "{\"completion\": \"I am DeepSeek, a large language model created by DeepSeek AI.\"}",
+					"outputDataExample": "{\"messages\": [{\"role\": \"user\", \"content\": \"Hello, how are you?\"}, {\"role\": \"assistant\", \"content\": \"I am DeepSeek, a large language model created by DeepSeek AI.\"}]}"
+				}
+			],
+			"description": "<ul><li>The application provides a primary interface for generating text from the DeepSeek-V3 model on local infrastructure</li><li>- It supports an interactive chat mode where users can have a conversation with the model in a command-line interface</li><li>- It also supports a batch mode, processing a file of prompts and generating a completion for each one</li><li>- The core logic loads the model weights, tokenizes the input prompt, runs a generation loop to produce new tokens, and then decodes them back into text</li><li>- The script leverages <code>torchrun</code> to handle distributed execution across multiple GPUs and nodes</li></ul>",
+			"simulationNodesAndEdges": {
+				"0746b257-ccb2-473d-8c08-730666dde2ae": {
+					"simStepIds": [
+						"f40a6b22-9da0-470b-b8a1-8e573fe1fe86"
+					]
+				},
+				"5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0": {
+					"simStepIds": [
+						"5a4a86e0-18c8-493f-abe7-842451dcdcd5"
+					]
+				},
+				"1b47e7a4-501b-4269-bb15-484dd2b84e89": {
+					"simStepIds": [
+						"9e9d8cfc-a497-4d6c-b14b-75982bfac0c4"
+					]
+				},
+				"a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b": {
+					"simStepIds": [
+						"bb9dcd82-c015-4d24-bee4-5a226555232c"
+					]
+				},
+				"1f667322-0be1-486d-a862-785492ebcccb": {
+					"simStepIds": [
+						"bc146555-06c3-45e8-b556-2e74e0dffc38"
+					]
+				},
+				"1a702b06-43a1-4471-98c2-030a8fac62ce": {
+					"simStepIds": [
+						"d839c3db-93e5-4ebe-81db-23102724193d"
+					]
+				},
+				"694ab3ba-aad9-40c4-aaa0-fef15b18c84c": {
+					"simStepIds": [
+						"6f075814-cec0-4a3b-84e1-4eade83a09af"
+					]
+				},
+				"fed7b983-e9af-45dd-9f8e-b5c0513ed02b": {
+					"simStepIds": [
+						"934e399a-eb6c-48e8-b744-adeedf7a9363"
+					]
+				},
+				"10c7ffb7-97d5-42f5-91bf-68cc3ff1a660": {
+					"simStepIds": [
+						"85950b06-a5a7-41c4-93bb-de3383a8b2eb"
+					]
+				},
+				"ea186c00-bfa0-4fed-8311-f10e05c959fa": {
+					"simStepIds": [
+						"ebc39b55-82b3-4e4e-a11e-e03cc15cbfbf"
+					]
+				},
+				"a347e119-9278-4bbb-b0fe-1de7fc106f1e": {
+					"simStepIds": [
+						"608a3136-401b-4152-9705-55177d677876"
+					]
+				},
+				"92db04f4-2356-44a7-96b5-3fe453fcb8a8": {
+					"simStepIds": [
+						"5c5b9b38-b8d7-4c4d-ba60-d4da1eff5015"
+					]
+				},
+				"9020a9a2-77e9-49c4-8070-7df6b663bed7": {
+					"simStepIds": [
+						"0d1264e5-eec6-4b47-aa44-9e0a62c43ef0"
+					]
+				},
+				"caa82f9a-05a2-4f4e-9158-6b77ab593ceb": {
+					"simStepIds": [
+						"b16e01da-fbf2-4b33-96d9-66d6678a9e40"
+					]
+				},
+				"7d3ca400-1202-41ef-b9e9-789e06de42b6": {
+					"simStepIds": [
+						"fe9d2525-1f59-44bc-a9b6-4caca71c2c6e"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "generate.py, interactive, input-file, torchrun, apply_chat_template, tokenizer.decode, sample",
+			"generationPrompt": "How local text generation works",
+			"generationKeywords": "generate.py, interactive, input-file, torchrun, apply_chat_template, tokenizer.decode, sample",
+			"meta": {
+				"containerCoverage": {
+					"perContainerTotals": {
+						"frontend": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"server": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"drawio": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"shared": {
+							"promptFileCount": 2,
+							"promptTokenCount": 3560,
+							"suggestedFileCount": 14
+						},
+						"unknown": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						}
+					},
+					"missingContainers": [],
+					"addedFiles": []
+				}
+			}
+		},
+		"How efficient FP8 inference works": {
+			"name": "How efficient FP8 inference works",
+			"simSteps": [
+				{
+					"simStepId": "7b730b57-3ed3-437b-aedf-83452f90a215",
+					"diagramNodeId": "bf3aae5a-2e61-4023-9fb1-98cccf4908df",
+					"simStepLabel": "FP8 Inference Flow: Linear Transformation Dispatch",
+					"simStepDescription": "The inference process for a linear layer begins. When the model is configured for FP8 inference (`gemm_impl == 'fp8'`), this function dispatches the computation to a specialized FP8 path. It checks if the weight tensor is already quantized (element size of 1 byte).",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "153",
+						"endLine": "158",
+						"relevantVariables": [
+							"linear",
+							"gemm_impl",
+							"weight",
+							"act_quant"
+						]
+					},
+					"inputDataExample": "{\"x\": {\"shape\": [1, 128, 4096], \"dtype\": \"bfloat16\"}, \"weight\": {\"shape\": [8192, 4096], \"dtype\": \"float8_e4m3fn\", \"scale\": {\"shape\": [64, 32], \"dtype\": \"float32\"}}, \"bias\": null}",
+					"outputDataExample": "{\"x\": {\"shape\": [1, 128, 4096], \"dtype\": \"bfloat16\"}, \"weight\": {\"shape\": [8192, 4096], \"dtype\": \"float8_e4m3fn\"}}"
+				},
+				{
+					"simStepId": "afd6e45d-22ab-4548-b4da-02c02e9bbf85",
+					"diagramNodeId": "adfeefeb-6ffd-4fb1-b3ea-654666f01775",
+					"simStepLabel": "FP8 Inference Flow: Pass Activations for Quantization",
+					"simStepDescription": "The bfloat16 activation tensor `x` is passed to the `act_quant` function to be dynamically quantized into FP8 format.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "159",
+						"endLine": "159",
+						"relevantVariables": [
+							"act_quant",
+							"x",
+							"block_size",
+							"scale_fmt"
+						]
+					},
+					"inputDataExample": "{\"x\": {\"shape\": [16384, 4096], \"dtype\": \"bfloat16\", \"example_values\": [0.12, -0.05, 1.23, ...]}, \"block_size\": 128, \"scale_fmt\": \"ue8m0\"}",
+					"outputDataExample": "{\"x\": {\"shape\": [16384, 4096], \"dtype\": \"bfloat16\", \"example_values\": [0.12, -0.05, 1.23, ...]}, \"block_size\": 128, \"scale_fmt\": \"ue8m0\"}"
+				},
+				{
+					"simStepId": "8981fb17-40e8-47e3-a137-7db4b4e767c1",
+					"diagramNodeId": "a891f3ff-fc0f-4542-b007-b69f85051860",
+					"simStepLabel": "FP8 Inference Flow: Launch Activation Quantization Kernel",
+					"simStepDescription": "The `act_quant` function serves as a Python wrapper that prepares for the execution of the Triton kernel. It allocates memory for the quantized output tensor `y` (FP8) and the scaling factor tensor `s` (FP32), then launches the `act_quant_kernel` on the GPU.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/kernel.py",
+						"startLine": "38",
+						"endLine": "57",
+						"relevantVariables": [
+							"act_quant",
+							"act_quant_kernel",
+							"x",
+							"y",
+							"s",
+							"grid"
+						]
+					},
+					"inputDataExample": "{\"x\": {\"shape\": [16384, 4096], \"dtype\": \"bfloat16\"}}",
+					"outputDataExample": "{\"y\": {\"shape\": [16384, 4096], \"dtype\": \"float8_e4m3fn\"}, \"s\": {\"shape\": [16384, 32], \"dtype\": \"float32\"}}"
+				},
+				{
+					"simStepId": "2000fe72-ac7e-4780-9edf-b6072b8040de",
+					"diagramNodeId": "c27a616b-ebeb-46bd-b680-32de070d655e",
+					"simStepLabel": "FP8 Inference Flow: Execute Triton Kernel for Quantization",
+					"simStepDescription": "The `act_quant_kernel` is executed on the GPU. This custom Triton kernel performs block-wise quantization. For each block of 128 elements in the input activation tensor, it finds the maximum absolute value (`amax`), calculates a scaling factor `s`, divides the input block by this scale, and stores the resulting FP8 value.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/kernel.py",
+						"startLine": "10",
+						"endLine": "35",
+						"relevantVariables": [
+							"act_quant_kernel",
+							"x",
+							"amax",
+							"s",
+							"y"
+						]
+					},
+					"inputDataExample": "{\"x_ptr\": \"<pointer to bfloat16 tensor>\", \"BLOCK_SIZE\": 128}",
+					"outputDataExample": "{\"x_ptr\": \"<pointer to bfloat16 tensor>\", \"BLOCK_SIZE\": 128}"
+				},
+				{
+					"simStepId": "ef8ec40d-8d14-40ad-89b0-b97d484b10e8",
+					"diagramNodeId": "ca76e097-8403-4429-9295-9c99b14ccd7f",
+					"simStepLabel": "FP8 Inference Flow: Perform FP8 Matrix Multiplication",
+					"simStepDescription": "Back in the `linear` function, with the activations now quantized to FP8, the `fp8_gemm` function is called. This function will perform the core matrix multiplication operation using the quantized activation, its calculated scale, the pre-quantized FP8 weight, and the weight's pre-computed scale.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "160",
+						"endLine": "160",
+						"relevantVariables": [
+							"fp8_gemm",
+							"x",
+							"scale",
+							"weight",
+							"weight.scale"
+						]
+					},
+					"inputDataExample": "{\"x\": {\"shape\": [16384, 4096], \"dtype\": \"float8_e4m3fn\"}, \"scale\": {\"shape\": [16384, 32], \"dtype\": \"float32\"}, \"weight\": {\"shape\": [8192, 4096], \"dtype\": \"float8_e4m3fn\"}, \"weight.scale\": {\"shape\": [64, 32], \"dtype\": \"float32\"}}",
+					"outputDataExample": "{\"y\": {\"shape\": [1, 128, 8192], \"dtype\": \"bfloat16\"}}"
+				},
+				{
+					"simStepId": "21de04e4-c5b8-481a-8a0f-f316f5190587",
+					"diagramNodeId": "5771b2ac-7894-4d66-ac66-ef2e2bad08aa",
+					"simStepLabel": "FP8 Inference Flow: Pass Quantized Tensors to GEMM Kernel",
+					"simStepDescription": "The `fp8_gemm` function acts as a launcher for the `fp8_gemm_kernel`. It sets up the grid configuration for the Triton launch and passes the pointers to the quantized activation and weight tensors, along with their respective scaling factors.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/kernel.py",
+						"startLine": "175",
+						"endLine": "196",
+						"relevantVariables": [
+							"fp8_gemm",
+							"fp8_gemm_kernel",
+							"a",
+							"a_s",
+							"b",
+							"b_s",
+							"c",
+							"grid"
+						]
+					},
+					"inputDataExample": "{\"a\": \"<quantized activation tensor>\", \"a_s\": \"<activation scale tensor>\", \"b\": \"<quantized weight tensor>\", \"b_s\": \"<weight scale tensor>\"}",
+					"outputDataExample": "{\"a\": \"<quantized activation tensor>\", \"a_s\": \"<activation scale tensor>\", \"b\": \"<quantized weight tensor>\", \"b_s\": \"<weight scale tensor>\"}"
+				},
+				{
+					"simStepId": "b6456c43-b3e7-4abd-b066-658df2a46dbb",
+					"diagramNodeId": "fc7cb542-c506-4ad5-b655-64e46c17fa60",
+					"simStepLabel": "FP8 Inference Flow: Execute Triton Kernel for GEMM",
+					"simStepDescription": "The `fp8_gemm_kernel` executes on the GPU. It performs the matrix multiplication (`tl.dot`) on the FP8 tensors `a` and `b`. The crucial step is incorporating the scaling factors (`a_s` and `b_s`) into the accumulation, effectively performing the dequantization dynamically within the GEMM operation. This maintains FP8's speed and memory benefits while producing a higher-precision result.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/kernel.py",
+						"startLine": "120",
+						"endLine": "172",
+						"relevantVariables": [
+							"fp8_gemm_kernel",
+							"accumulator",
+							"tl.dot(a, b)",
+							"a_s",
+							"b_s"
+						]
+					},
+					"inputDataExample": "{\"a_ptr\": \"<pointer>\", \"b_ptr\": \"<pointer>\", \"a_s_ptr\": \"<pointer>\", \"b_s_ptr\": \"<pointer>\"}",
+					"outputDataExample": "{\"c_ptr\": \"<pointer to result tensor>\"}"
+				},
+				{
+					"simStepId": "bf67524b-b685-47c1-a87c-2b6bc35c0c91",
+					"diagramNodeId": "11f7b5b1-4d7d-4f10-804e-e70b09840500",
+					"simStepLabel": "FP8 Inference Flow: Return Final Result",
+					"simStepDescription": "The resulting bfloat16 tensor from the `fp8_gemm` operation is returned to the `linear` function, which then adds the bias (if one exists) and returns the final output of the linear layer.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "161",
+						"endLine": "163",
+						"relevantVariables": [
+							"y",
+							"bias"
+						]
+					},
+					"inputDataExample": "{\"y\": {\"shape\": [1, 128, 8192], \"dtype\": \"bfloat16\", \"example_values\": [2.3, -1.5, 0.45, ...]}}",
+					"outputDataExample": "{\"y\": {\"shape\": [1, 128, 8192], \"dtype\": \"bfloat16\", \"example_values\": [2.3, -1.5, 0.45, ...]}}"
+				},
+				{
+					"simStepId": "3e688546-0a88-4272-9baf-435a46b88dc4",
+					"diagramNodeId": "39f8a6c2-5589-42fe-8fc3-a94c1536e950",
+					"simStepLabel": "Conversion Flow: Start FP8 to BF16 Weight Conversion",
+					"simStepDescription": "For frameworks that do not natively support FP8, a user can run the `fp8_cast_bf16.py` script. The `main` function is the entry point, which orchestrates the process of reading FP8 weights, dequantizing them, and saving them in BF16 format.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/fp8_cast_bf16.py",
+						"startLine": "107",
+						"endLine": "111",
+						"relevantVariables": [
+							"main",
+							"args.input_fp8_hf_path",
+							"args.output_bf16_hf_path"
+						]
+					},
+					"inputDataExample": "{\"input-fp8-hf-path\": \"/path/to/fp8_weights\", \"output-bf16-hf-path\": \"/path/to/bf16_weights\"}",
+					"outputDataExample": "{}"
+				},
+				{
+					"simStepId": "0b81e28f-2d46-4daa-a6ac-557d56cca313",
+					"diagramNodeId": "29590677-243c-428c-b678-c04f1fc7f554",
+					"simStepLabel": "Conversion Flow: Pass FP8 Weight for Dequantization",
+					"simStepDescription": "Inside a loop that processes each weight tensor from the `safetensors` files, the script identifies an FP8 weight and its corresponding `_scale_inv` tensor. It then calls the `weight_dequant` function to perform the conversion.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/fp8_cast_bf16.py",
+						"startLine": "80",
+						"endLine": "80",
+						"relevantVariables": [
+							"weight_dequant",
+							"weight",
+							"scale_inv"
+						]
+					},
+					"inputDataExample": "{\"weight\": {\"shape\": [4096, 4096], \"dtype\": \"float8_e4m3fn\"}, \"scale_inv\": {\"shape\": [32, 32], \"dtype\": \"float32\"}}",
+					"outputDataExample": "{\"weight\": {\"shape\": [4096, 4096], \"dtype\": \"float8_e4m3fn\"}, \"scale_inv\": {\"shape\": [32, 32], \"dtype\": \"float32\"}}"
+				},
+				{
+					"simStepId": "34a45fd1-bc22-48eb-be24-610c64fb40a5",
+					"diagramNodeId": "e893e1c1-223c-42e7-b59e-57d04d199c0e",
+					"simStepLabel": "Conversion Flow: Launch Weight Dequantization Kernel",
+					"simStepDescription": "The `weight_dequant` function is a Python wrapper. It allocates an empty tensor `y` with the target default dtype (bfloat16) and launches the `weight_dequant_kernel` on the GPU to perform the actual dequantization.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/kernel.py",
+						"startLine": "89",
+						"endLine": "110",
+						"relevantVariables": [
+							"weight_dequant",
+							"weight_dequant_kernel",
+							"x",
+							"s",
+							"y",
+							"grid"
+						]
+					},
+					"inputDataExample": "{\"x\": {\"shape\": [4096, 4096], \"dtype\": \"float8_e4m3fn\"}, \"s\": {\"shape\": [32, 32], \"dtype\": \"float32\"}}",
+					"outputDataExample": "{\"y\": {\"shape\": [4096, 4096], \"dtype\": \"bfloat16\"}}"
+				},
+				{
+					"simStepId": "4f940598-d09b-4d93-b279-b85a6d397f31",
+					"diagramNodeId": "3714d2d7-04dd-4218-a9d7-de7208992c6a",
+					"simStepLabel": "Conversion Flow: Execute Triton Kernel for Dequantization",
+					"simStepDescription": "Data is sent to the GPU for the kernel execution.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/kernel.py",
+						"startLine": "109",
+						"endLine": "109",
+						"relevantVariables": [
+							"weight_dequant_kernel"
+						]
+					},
+					"inputDataExample": "{\"x_ptr\": \"<pointer to fp8 weight>\", \"s_ptr\": \"<pointer to scale tensor>\", \"y_ptr\": \"<pointer to empty bfloat16 tensor>\"}",
+					"outputDataExample": "{\"x_ptr\": \"<pointer to fp8 weight>\", \"s_ptr\": \"<pointer to scale tensor>\", \"y_ptr\": \"<pointer to empty bfloat16 tensor>\"}"
+				},
+				{
+					"simStepId": "e1a1a2d8-4475-42f1-af8c-0157522f57c9",
+					"diagramNodeId": "b3e53f37-cb0e-4329-b078-b75428e294b6",
+					"simStepLabel": "Conversion Flow: Perform Dequantization on GPU",
+					"simStepDescription": "The `weight_dequant_kernel` executes on the GPU. It loads the FP8 weight block `x` and its corresponding scaling factor `s`, casts the weight to float32, and performs the element-wise multiplication `x * s`. The result is a dequantized bfloat16 tensor.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/kernel.py",
+						"startLine": "61",
+						"endLine": "86",
+						"relevantVariables": [
+							"weight_dequant_kernel",
+							"x",
+							"s",
+							"y"
+						]
+					},
+					"inputDataExample": "{\"x_ptr\": \"<pointer>\", \"s_ptr\": \"<pointer>\"}",
+					"outputDataExample": "{\"y_ptr\": \"<pointer to dequantized bfloat16 tensor>\"}"
+				},
+				{
+					"simStepId": "699e0766-0ccc-4f56-94b8-12be2b64e2ac",
+					"diagramNodeId": "0c511692-312e-4a20-a296-b68c64e89833",
+					"simStepLabel": "Conversion Flow: Return Dequantized Weight",
+					"simStepDescription": "The dequantized bfloat16 tensor is returned from the `weight_dequant` function back to the `main` function in the conversion script.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/fp8_cast_bf16.py",
+						"startLine": "80",
+						"endLine": "80",
+						"relevantVariables": [
+							"new_state_dict"
+						]
+					},
+					"inputDataExample": "{\"new_state_dict[weight_name]\": {\"shape\": [4096, 4096], \"dtype\": \"bfloat16\", \"example_values\": [-0.012, 0.234, ...]}}",
+					"outputDataExample": "{\"new_state_dict[weight_name]\": {\"shape\": [4096, 4096], \"dtype\": \"bfloat16\", \"example_values\": [-0.012, 0.234, ...]}}"
+				},
+				{
+					"simStepId": "2e3480fe-2a62-43f9-953c-6af2d8a30960",
+					"diagramNodeId": "c8464097-04cf-4283-bda0-883beaee7b6e",
+					"simStepLabel": "Conversion Flow: Save BF16 Weights",
+					"simStepDescription": "The `main` function receives the dequantized bfloat16 weight and stores it in a new state dictionary. This dictionary is then saved to a new `.safetensors` file in the specified output directory, completing the conversion for that tensor.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/fp8_cast_bf16.py",
+						"startLine": "87",
+						"endLine": "88",
+						"relevantVariables": [
+							"save_file",
+							"new_state_dict",
+							"new_safetensor_file"
+						]
+					},
+					"inputDataExample": "{\"new_state_dict\": {\"model.layer.0.weight\": {\"shape\": [4096, 4096], \"dtype\": \"bfloat16\"}}, \"new_safetensor_file\": \"/path/to/bf16_weights/model-00001-of-000XX.safetensors\"}",
+					"outputDataExample": "{}"
+				}
+			],
+			"description": "<ul><li>DeepSeek-V3 is optimized for high-performance inference using 8-bit floating-point (FP8) precision, significantly reducing memory usage and increasing speed</li><li>- The model is natively trained with FP8 weights, which are provided as the default format</li><li>- Custom, high-performance Triton kernels in <code>inference/kernel</li><li>py</code> are used for critical operations like FP8 matrix multiplication (<code>fp8_gemm</code>)</li><li>- The system performs dynamic quantization of activations on-the-fly (<code>act_quant</code>) and dequantization of weights (<code>weight_dequant</code>) to maintain accuracy while leveraging FP8 hardware acceleration</li><li>- For users with frameworks that do not support FP8, a conversion script (<code>fp8_cast_bf16</li><li>py</code>) is provided to upcast the weights to BF16</li></ul>",
+			"simulationNodesAndEdges": {
+				"bf3aae5a-2e61-4023-9fb1-98cccf4908df": {
+					"simStepIds": [
+						"7b730b57-3ed3-437b-aedf-83452f90a215"
+					]
+				},
+				"a891f3ff-fc0f-4542-b007-b69f85051860": {
+					"simStepIds": [
+						"8981fb17-40e8-47e3-a137-7db4b4e767c1"
+					]
+				},
+				"ca76e097-8403-4429-9295-9c99b14ccd7f": {
+					"simStepIds": [
+						"ef8ec40d-8d14-40ad-89b0-b97d484b10e8"
+					]
+				},
+				"fc7cb542-c506-4ad5-b655-64e46c17fa60": {
+					"simStepIds": [
+						"b6456c43-b3e7-4abd-b066-658df2a46dbb"
+					]
+				},
+				"39f8a6c2-5589-42fe-8fc3-a94c1536e950": {
+					"simStepIds": [
+						"3e688546-0a88-4272-9baf-435a46b88dc4"
+					]
+				},
+				"e893e1c1-223c-42e7-b59e-57d04d199c0e": {
+					"simStepIds": [
+						"34a45fd1-bc22-48eb-be24-610c64fb40a5"
+					]
+				},
+				"b3e53f37-cb0e-4329-b078-b75428e294b6": {
+					"simStepIds": [
+						"e1a1a2d8-4475-42f1-af8c-0157522f57c9"
+					]
+				},
+				"c8464097-04cf-4283-bda0-883beaee7b6e": {
+					"simStepIds": [
+						"2e3480fe-2a62-43f9-953c-6af2d8a30960"
+					]
+				},
+				"adfeefeb-6ffd-4fb1-b3ea-654666f01775": {
+					"simStepIds": [
+						"afd6e45d-22ab-4548-b4da-02c02e9bbf85"
+					]
+				},
+				"c27a616b-ebeb-46bd-b680-32de070d655e": {
+					"simStepIds": [
+						"2000fe72-ac7e-4780-9edf-b6072b8040de"
+					]
+				},
+				"5771b2ac-7894-4d66-ac66-ef2e2bad08aa": {
+					"simStepIds": [
+						"21de04e4-c5b8-481a-8a0f-f316f5190587"
+					]
+				},
+				"11f7b5b1-4d7d-4f10-804e-e70b09840500": {
+					"simStepIds": [
+						"bf67524b-b685-47c1-a87c-2b6bc35c0c91"
+					]
+				},
+				"29590677-243c-428c-b678-c04f1fc7f554": {
+					"simStepIds": [
+						"0b81e28f-2d46-4daa-a6ac-557d56cca313"
+					]
+				},
+				"3714d2d7-04dd-4218-a9d7-de7208992c6a": {
+					"simStepIds": [
+						"4f940598-d09b-4d93-b279-b85a6d397f31"
+					]
+				},
+				"0c511692-312e-4a20-a296-b68c64e89833": {
+					"simStepIds": [
+						"699e0766-0ccc-4f56-94b8-12be2b64e2ac"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "fp8, kernel.py, act_quant, weight_dequant, fp8_gemm, Triton, e4m3fn",
+			"generationPrompt": "How efficient FP8 inference works",
+			"generationKeywords": "fp8, kernel.py, act_quant, weight_dequant, fp8_gemm, Triton, e4m3fn",
+			"meta": {
+				"containerCoverage": {
+					"perContainerTotals": {
+						"frontend": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"server": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"drawio": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"shared": {
+							"promptFileCount": 8,
+							"promptTokenCount": 6546,
+							"suggestedFileCount": 14
+						},
+						"unknown": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						}
+					},
+					"missingContainers": [],
+					"addedFiles": []
+				}
+			}
+		},
+		"How distributed multi-GPU/multi-node inference works": {
+			"name": "How distributed multi-GPU/multi-node inference works",
+			"simSteps": [
+				{
+					"simStepId": "5f8c9731-b3c9-472b-80d7-684f64e8aad4",
+					"diagramNodeId": "be19f971-55ab-495d-b562-143a5dfabb21",
+					"simStepLabel": "Launch Distributed Inference",
+					"simStepDescription": "The user initiates the distributed inference process using `torchrun`. This command-line tool is responsible for setting up a distributed environment across multiple nodes and GPUs, launching the `generate.py` script on each process.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "README.md",
+						"startLine": "296",
+						"endLine": "297",
+						"relevantVariables": [
+							"torchrun",
+							"--nnodes",
+							"--nproc-per-node",
+							"generate.py"
+						]
+					},
+					"inputDataExample": "{\"command\": \"torchrun\", \"args\": {\"--nnodes\": 2, \"--nproc-per-node\": 8, \"script\": \"generate.py\", \"--ckpt-path\": \"/path/to/DeepSeek-V3-Demo\", \"--config\": \"configs/config_671B.json\"}}",
+					"outputDataExample": "{\"status\": \"Spawning 16 processes across 2 nodes\"}"
+				},
+				{
+					"simStepId": "bbaffc24-4cc1-4de7-bc33-4aaebc1e2874",
+					"diagramNodeId": "129dfb44-bcb7-46de-a9bb-465dcbd11d80",
+					"simStepLabel": "Process Spawning",
+					"simStepDescription": "`torchrun` spawns multiple instances of the `generate.py` script. Each process is assigned a unique rank and has environment variables like `WORLD_SIZE`, `RANK`, and `LOCAL_RANK` set automatically, which are crucial for coordinating the distributed computation.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "100",
+						"endLine": "102",
+						"relevantVariables": [
+							"WORLD_SIZE",
+							"RANK",
+							"LOCAL_RANK"
+						]
+					},
+					"inputDataExample": "{\"status\": \"Spawning 16 processes across 2 nodes\"}",
+					"outputDataExample": "{\"status\": \"Spawning 16 processes across 2 nodes\"}"
+				},
+				{
+					"simStepId": "40e8b95d-7ac2-494d-b359-716a57539176",
+					"diagramNodeId": "135f55ad-c670-4a93-aeb1-27c7de5963d6",
+					"simStepLabel": "Initialize Process Group",
+					"simStepDescription": "Each `generate.py` process initializes the PyTorch distributed process group using `dist.init_process_group`. This step establishes communication channels between all processes (GPUs) using the NCCL backend, enabling them to exchange tensors.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "103",
+						"endLine": "104",
+						"relevantVariables": [
+							"dist.init_process_group"
+						]
+					},
+					"inputDataExample": "{\"backend\": \"nccl\"}",
+					"outputDataExample": "{\"status\": \"Process group initialized\"}"
+				},
+				{
+					"simStepId": "4bc7586c-6373-4507-accc-97c979acd9bc",
+					"diagramNodeId": "cd0d5786-4c14-445e-8fef-96c679ba21a1",
+					"simStepLabel": "Distributed Environment Active",
+					"simStepDescription": "With the process group initialized, all processes are now part of a collective and can communicate. The model components can now be defined in a distributed-aware manner.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "757",
+						"endLine": "759",
+						"relevantVariables": [
+							"dist.get_world_size()",
+							"dist.get_rank()"
+						]
+					},
+					"inputDataExample": "{\"status\": \"Process group initialized\"}",
+					"outputDataExample": "{\"status\": \"Process group initialized\"}"
+				},
+				{
+					"simStepId": "334f8055-3564-464e-88e7-962439ca1160",
+					"diagramNodeId": "a9691dfb-ba90-414c-a497-65f025d22f4a",
+					"simStepLabel": "Instantiate Transformer Model with Tensor Parallelism",
+					"simStepDescription": "The main process instantiates the `Transformer` model. During initialization, the model reads the distributed configuration (world size, rank). Tensor-parallel layers like `ColumnParallelLinear` and `RowParallelLinear` are created, where weight matrices are partitioned across the available GPUs.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "3",
+						"endLine": "108",
+						"relevantVariables": [
+							"Transformer",
+							"args"
+						]
+					},
+					"inputDataExample": "{\"ModelArgs\": {\"dim\": 8192, \"n_heads\": 64, \"vocab_size\": 102400}, \"world_size\": 16}",
+					"outputDataExample": "{\"model\": \"Transformer object with sharded weights\"}"
+				},
+				{
+					"simStepId": "b8126c51-b1fb-4775-b887-61c8f08278ac",
+					"diagramNodeId": "5ba5239b-004e-4a41-89c0-17ed3b098bb8",
+					"simStepLabel": "Model Forward Pass Initiated",
+					"simStepDescription": "The `generate` function begins the token generation loop, invoking the model's forward pass for each step. The input tokens are passed to the model.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "61",
+						"endLine": "61",
+						"relevantVariables": [
+							"model.forward"
+						]
+					},
+					"inputDataExample": "{\"tokens\": \"tensor([[...]])\", \"start_pos\": 0}",
+					"outputDataExample": "{\"tokens\": \"tensor([[...]])\", \"start_pos\": 0}"
+				},
+				{
+					"simStepId": "fadd6e81-02f2-4943-b6fd-675ef0b64d65",
+					"diagramNodeId": "ace2abbf-8af5-4b41-829a-1aef065eef8b",
+					"simStepLabel": "Column-Parallel Computation",
+					"simStepDescription": "Inside a transformer block's attention layer (`MLA`), `ColumnParallelLinear` is used for query, key, and value projections (e.g., `wq`). The weight matrix is split column-wise across GPUs. Each GPU computes only a slice of the output features. This operation is self-contained on each GPU and requires no immediate communication.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "425",
+						"endLine": "425",
+						"relevantVariables": [
+							"self.wq",
+							"ColumnParallelLinear"
+						]
+					},
+					"inputDataExample": "{\"x_shape\": \"[bsz, seqlen, 8192]\", \"weight_shape_on_gpu_0\": \"[4096, 8192]\"}",
+					"outputDataExample": "{\"y_shape_on_gpu_0\": \"[bsz, seqlen, 4096]\"}"
+				},
+				{
+					"simStepId": "74dfb9e3-d4e2-45e8-bda9-617c05aeca87",
+					"diagramNodeId": "6859bd0d-d7fc-4590-991f-58349dad01db",
+					"simStepLabel": "Transmit Sharded Tensors",
+					"simStepDescription": "The output of the column-parallel layer is a sharded tensor, representing a fraction of the full output. This sharded tensor is then used in subsequent calculations within the attention mechanism on the same GPU.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "233",
+						"endLine": "234",
+						"relevantVariables": [
+							"y"
+						]
+					},
+					"inputDataExample": "{\"y_on_gpu_0\": \"tensor(...)\", \"y_on_gpu_1\": \"tensor(...)\", \"...\"}",
+					"outputDataExample": "{\"y_on_gpu_0\": \"tensor(...)\", \"y_on_gpu_1\": \"tensor(...)\", \"...\"}"
+				},
+				{
+					"simStepId": "e37b58fa-6cbb-4b4f-a684-62d6e1ec3a8d",
+					"diagramNodeId": "9bcca4e1-bb92-4665-86f5-c1f1089116fd",
+					"simStepLabel": "Row-Parallel Computation and Aggregation",
+					"simStepDescription": "The output projection of the attention layer (`wo`) is a `RowParallelLinear` layer. Its weight matrix is split row-wise. Each GPU computes a partial result based on its slice of the input features. To get the final result, these partial results must be summed across all GPUs.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "433",
+						"endLine": "433",
+						"relevantVariables": [
+							"self.wo",
+							"RowParallelLinear"
+						]
+					},
+					"inputDataExample": "{\"x_shape_on_gpu_0\": \"[bsz, seqlen, 4096]\", \"weight_shape_on_gpu_0\": \"[8192, 4096]\"}",
+					"outputDataExample": "{\"partial_y_on_gpu_0\": \"[bsz, seqlen, 8192]\"}"
+				},
+				{
+					"simStepId": "8602e6ed-9418-43c5-9ecf-d1f826eac3f0",
+					"diagramNodeId": "4b358b04-f5b4-49af-856f-ede61a0865ee",
+					"simStepLabel": "Distribute Partial Results for Reduction",
+					"simStepDescription": "The partial output from each GPU's `RowParallelLinear` computation is prepared for a collective communication operation.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "262",
+						"endLine": "262",
+						"relevantVariables": [
+							"y"
+						]
+					},
+					"inputDataExample": "{\"partial_y_on_gpu_0\": \"tensor(...)\", \"partial_y_on_gpu_1\": \"tensor(...)\"}",
+					"outputDataExample": "{\"partial_y_on_gpu_0\": \"tensor(...)\", \"partial_y_on_gpu_1\": \"tensor(...)\"}"
+				},
+				{
+					"simStepId": "693f1026-5630-4ed6-8a0e-b3ed75bedb71",
+					"diagramNodeId": "cda88692-38f8-4213-a123-883d33542976",
+					"simStepLabel": "All-Reduce Communication",
+					"simStepDescription": "The `dist.all_reduce` operation is called. This function sums the tensors from all processes and distributes the final result back to every process. Now, each GPU holds the complete, correct output from the `RowParallelLinear` layer.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "263",
+						"endLine": "264",
+						"relevantVariables": [
+							"dist.all_reduce"
+						]
+					},
+					"inputDataExample": "{\"tensors_to_reduce\": [\"partial_y_on_gpu_0\", \"partial_y_on_gpu_1\", \"...\"]}",
+					"outputDataExample": "{\"reduced_y_on_all_gpus\": \"tensor(...)\"}"
+				},
+				{
+					"simStepId": "eb5eeaed-0905-49e9-82e7-edf10c53b6e8",
+					"diagramNodeId": "7309b263-a324-467c-a0e8-6d5c5c3149d3",
+					"simStepLabel": "Transmit Aggregated Attention Output",
+					"simStepDescription": "The full, aggregated output from the attention block is now available on every GPU and is passed as input to the next layer in the transformer block (the MoE layer).",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "733",
+						"endLine": "733",
+						"relevantVariables": [
+							"x"
+						]
+					},
+					"inputDataExample": "{\"aggregated_attention_output\": \"tensor(...)\"}",
+					"outputDataExample": "{\"aggregated_attention_output\": \"tensor(...)\"}"
+				},
+				{
+					"simStepId": "cf999bc1-4713-425e-90dd-3d3c40a108c1",
+					"diagramNodeId": "125b2cbe-c32b-4f69-acc4-9603246997d4",
+					"simStepLabel": "Mixture-of-Experts (MoE) Computation",
+					"simStepDescription": "In the MoE layer, each rank is responsible for a subset of the total experts. The gating network determines which tokens are routed to which experts. Each rank computes the output only for its local experts, resulting in a partial output tensor `y` that contains the results for tokens routed to its experts.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "684",
+						"endLine": "689",
+						"relevantVariables": [
+							"self.experts",
+							"expert(x[idx])"
+						]
+					},
+					"inputDataExample": "{\"x_shape\": \"[tokens, dim]\", \"indices_for_local_experts\": \"tensor(...)\"}",
+					"outputDataExample": "{\"partial_y_shape\": \"[tokens, dim]\"}"
+				},
+				{
+					"simStepId": "669637bd-8119-41c9-a091-59e5dbf5817e",
+					"diagramNodeId": "33a36d6a-4e79-4c54-8f51-4c16d27d8075",
+					"simStepLabel": "Distribute Partial MoE Outputs",
+					"simStepDescription": "The partial output `y` from each rank's local expert computations is prepared for another all-reduce operation to combine the results from all experts across the distributed system.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "682",
+						"endLine": "682",
+						"relevantVariables": [
+							"y"
+						]
+					},
+					"inputDataExample": "{\"partial_y_on_gpu_0\": \"tensor(...)\", \"partial_y_on_gpu_1\": \"tensor(...)\"}",
+					"outputDataExample": "{\"partial_y_on_gpu_0\": \"tensor(...)\", \"partial_y_on_gpu_1\": \"tensor(...)\"}"
+				},
+				{
+					"simStepId": "f96bbdc9-856b-4dc2-9d2d-a21357604833",
+					"diagramNodeId": "a006bc12-cc4b-4caa-a980-58df1316bef4",
+					"simStepLabel": "MoE All-Reduce Communication",
+					"simStepDescription": "A `dist.all_reduce` call sums the partial outputs from all ranks. This combines the computations from all the different experts, ensuring that the final output on each rank reflects the contributions from all activated experts, regardless of which GPU they reside on.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "691",
+						"endLine": "692",
+						"relevantVariables": [
+							"dist.all_reduce"
+						]
+					},
+					"inputDataExample": "{\"tensors_to_reduce\": [\"partial_y_on_gpu_0\", \"partial_y_on_gpu_1\", \"...\"]}",
+					"outputDataExample": "{\"aggregated_moe_output_on_all_gpus\": \"tensor(...)\"}"
+				},
+				{
+					"simStepId": "61d58d74-b9c4-44fd-8d0b-fc0b2ec9078d",
+					"diagramNodeId": "1ce50f47-e937-4bd0-89b9-0c535d21139f",
+					"simStepLabel": "Transmit Final Logits for Aggregation",
+					"simStepDescription": "After the final transformer block and layer norm, the output is passed to the model head, which is a `ColumnParallelLinear` layer. This produces logits that are sharded across the vocabulary dimension. These sharded logits are then prepared for a final gathering operation.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "4",
+						"endLine": "773",
+						"relevantVariables": [
+							"logits",
+							"self.head"
+						]
+					},
+					"inputDataExample": "{\"sharded_logits_gpu_0\": \"tensor(shape=[bsz, 6400])\", \"sharded_logits_gpu_1\": \"tensor(shape=[bsz, 6400])\"}",
+					"outputDataExample": "{\"sharded_logits_gpu_0\": \"tensor(shape=[bsz, 6400])\", \"sharded_logits_gpu_1\": \"tensor(shape=[bsz, 6400])\"}"
+				},
+				{
+					"simStepId": "d5c9716b-f7d5-44e1-a58c-fdd28660aafa",
+					"diagramNodeId": "c8cf54bf-a366-4aa9-9360-8e8f76293f38",
+					"simStepLabel": "All-Gather Final Logits",
+					"simStepDescription": "To obtain the full logits for token sampling, `dist.all_gather` is used. This operation collects the sharded logits from all GPUs and concatenates them, so that every GPU ends up with a complete copy of the full logits tensor covering the entire vocabulary.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "4",
+						"endLine": "773",
+						"relevantVariables": [
+							"dist.all_gather",
+							"torch.cat"
+						]
+					},
+					"inputDataExample": "{\"sharded_logits_list\": [\"tensor_gpu_0\", \"tensor_gpu_1\", \"...\"]}",
+					"outputDataExample": "{\"full_logits_on_all_gpus\": \"tensor(shape=[bsz, 102400])\"}"
+				},
+				{
+					"simStepId": "7661e4eb-d996-44ff-8413-fcf66b2905bb",
+					"diagramNodeId": "17665480-10c1-4441-8de3-d5ee769c3fac",
+					"simStepLabel": "Return Full Logits",
+					"simStepDescription": "The complete logits tensor is returned from the model's forward pass to the generation script.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "inference/model.py",
+						"startLine": "4",
+						"endLine": "773",
+						"relevantVariables": [
+							"logits"
+						]
+					},
+					"inputDataExample": "{\"full_logits\": \"tensor(shape=[bsz, 102400])\"}",
+					"outputDataExample": "{\"full_logits\": \"tensor(shape=[bsz, 102400])\"}"
+				},
+				{
+					"simStepId": "cabfc866-8d46-4104-8c04-4950ec6630ad",
+					"diagramNodeId": "d9955bac-2053-459e-890e-d79e3d0e2218",
+					"simStepLabel": "Sample Next Token",
+					"simStepDescription": "Back in `generate.py`, the `sample` function takes the full logits tensor and uses temperature-based sampling (or argmax) to select the next token. This concludes one step of the generation loop. The process repeats until the desired number of tokens is generated.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "inference/generate.py",
+						"startLine": "62",
+						"endLine": "65",
+						"relevantVariables": [
+							"sample",
+							"logits.argmax"
+						]
+					},
+					"inputDataExample": "{\"logits\": \"tensor(shape=[bsz, 102400])\", \"temperature\": 0.7}",
+					"outputDataExample": "{\"next_token\": \"tensor(shape=[bsz])\"}"
+				}
+			],
+			"description": "<ul><li>The model is designed to run on hardware setups that span multiple GPUs and nodes to accommodate its large size (671B parameters)</li><li>- It uses tensor parallelism, where individual layers and weights are split across multiple GPUs</li><li>- <code>inference/model</li><li>py</code> implements custom parallel layers like <code>ColumnParallelLinear</code> and <code>RowParallelLinear</code> to manage the distributed computation</li><li>- Communication between processes, such as summing results, is handled using <code>torch</li><li>distributed</code> functions like <code>all_reduce</code> and <code>all_gather</code></li><li>- The main generation script (<code>generate</li><li>py</code>) is launched using <code>torchrun</code>, which configures the distributed environment based on user-provided arguments like <code>--nnodes</code> and <code>--nproc-per-node</code></li></ul>",
+			"simulationNodesAndEdges": {
+				"be19f971-55ab-495d-b562-143a5dfabb21": {
+					"simStepIds": [
+						"5f8c9731-b3c9-472b-80d7-684f64e8aad4"
+					]
+				},
+				"135f55ad-c670-4a93-aeb1-27c7de5963d6": {
+					"simStepIds": [
+						"40e8b95d-7ac2-494d-b359-716a57539176"
+					]
+				},
+				"a9691dfb-ba90-414c-a497-65f025d22f4a": {
+					"simStepIds": [
+						"334f8055-3564-464e-88e7-962439ca1160"
+					]
+				},
+				"ace2abbf-8af5-4b41-829a-1aef065eef8b": {
+					"simStepIds": [
+						"fadd6e81-02f2-4943-b6fd-675ef0b64d65"
+					]
+				},
+				"9bcca4e1-bb92-4665-86f5-c1f1089116fd": {
+					"simStepIds": [
+						"e37b58fa-6cbb-4b4f-a684-62d6e1ec3a8d"
+					]
+				},
+				"cda88692-38f8-4213-a123-883d33542976": {
+					"simStepIds": [
+						"693f1026-5630-4ed6-8a0e-b3ed75bedb71"
+					]
+				},
+				"125b2cbe-c32b-4f69-acc4-9603246997d4": {
+					"simStepIds": [
+						"cf999bc1-4713-425e-90dd-3d3c40a108c1"
+					]
+				},
+				"a006bc12-cc4b-4caa-a980-58df1316bef4": {
+					"simStepIds": [
+						"f96bbdc9-856b-4dc2-9d2d-a21357604833"
+					]
+				},
+				"c8cf54bf-a366-4aa9-9360-8e8f76293f38": {
+					"simStepIds": [
+						"d5c9716b-f7d5-44e1-a58c-fdd28660aafa"
+					]
+				},
+				"d9955bac-2053-459e-890e-d79e3d0e2218": {
+					"simStepIds": [
+						"cabfc866-8d46-4104-8c04-4950ec6630ad"
+					]
+				},
+				"129dfb44-bcb7-46de-a9bb-465dcbd11d80": {
+					"simStepIds": [
+						"bbaffc24-4cc1-4de7-bc33-4aaebc1e2874"
+					]
+				},
+				"cd0d5786-4c14-445e-8fef-96c679ba21a1": {
+					"simStepIds": [
+						"4bc7586c-6373-4507-accc-97c979acd9bc"
+					]
+				},
+				"5ba5239b-004e-4a41-89c0-17ed3b098bb8": {
+					"simStepIds": [
+						"b8126c51-b1fb-4775-b887-61c8f08278ac"
+					]
+				},
+				"6859bd0d-d7fc-4590-991f-58349dad01db": {
+					"simStepIds": [
+						"74dfb9e3-d4e2-45e8-bda9-617c05aeca87"
+					]
+				},
+				"4b358b04-f5b4-49af-856f-ede61a0865ee": {
+					"simStepIds": [
+						"8602e6ed-9418-43c5-9ecf-d1f826eac3f0"
+					]
+				},
+				"7309b263-a324-467c-a0e8-6d5c5c3149d3": {
+					"simStepIds": [
+						"eb5eeaed-0905-49e9-82e7-edf10c53b6e8"
+					]
+				},
+				"33a36d6a-4e79-4c54-8f51-4c16d27d8075": {
+					"simStepIds": [
+						"669637bd-8119-41c9-a091-59e5dbf5817e"
+					]
+				},
+				"1ce50f47-e937-4bd0-89b9-0c535d21139f": {
+					"simStepIds": [
+						"61d58d74-b9c4-44fd-8d0b-fc0b2ec9078d"
+					]
+				},
+				"17665480-10c1-4441-8de3-d5ee769c3fac": {
+					"simStepIds": [
+						"7661e4eb-d996-44ff-8413-fcf66b2905bb"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "torch.distributed, dist.init_process_group, ColumnParallelLinear, RowParallelLinear, dist.all_reduce, model-parallel, torchrun",
+			"generationPrompt": "How distributed multi-GPU/multi-node inference works",
+			"generationKeywords": "torch.distributed, dist.init_process_group, ColumnParallelLinear, RowParallelLinear, dist.all_reduce, model-parallel, torchrun",
+			"meta": {
+				"containerCoverage": {
+					"perContainerTotals": {
+						"frontend": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"server": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"drawio": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						},
+						"shared": {
+							"promptFileCount": 4,
+							"promptTokenCount": 3686,
+							"suggestedFileCount": 14
+						},
+						"unknown": {
+							"promptFileCount": 0,
+							"promptTokenCount": 0,
+							"suggestedFileCount": 0
+						}
+					},
+					"missingContainers": [],
+					"addedFiles": []
+				}
+			}
+		},
+		"How model deployment and serving works": {
+			"name": "How model deployment and serving works",
+			"simSteps": [],
+			"description": "<ul><li>The repository is designed to facilitate the deployment of DeepSeek-V3 in production environments through integration with popular serving frameworks</li><li>- The README provides explicit instructions and recommendations for using frameworks like vLLM, SGLang, and LMDeploy for efficient local and cloud deployment</li><li>- It highlights support for various hardware backends, including NVIDIA GPUs (with TensorRT-LLM), AMD GPUs, and Huawei Ascend NPUs</li><li>- The provided <code>inference/</code> scripts serve as a baseline implementation and starting point for integration into these more complex serving solutions</li><li>- These frameworks offer features like continuous batching, optimized kernels, and API endpoints (often OpenAI-compatible) for production use</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "SGLang, LMDeploy, vLLM, TensorRT-LLM, LightLLM, AMD, Huawei Ascend",
+			"generationPrompt": "How model deployment and serving works",
+			"generationKeywords": "SGLang, LMDeploy, vLLM, TensorRT-LLM, LightLLM, AMD, Huawei Ascend"
+		},
+		"How model weight conversion and setup works": {
+			"name": "How model weight conversion and setup works",
+			"simSteps": [],
+			"description": "<ul><li>Before running inference, users must convert the model weights from the standard Hugging Face format to a specialized format optimized for the inference scripts</li><li>- The <code>inference/convert</li><li>py</code> script reshapes and shards the weights according to the specified model parallelism (<code>mp</code>) level</li><li>- It maps the Hugging Face layer names to the internal names used in <code>model</li><li>py</code> and saves the sharded checkpoints as individual <code>safetensors</code> files</li><li>- Additionally, <code>inference/fp8_cast_bf16</li><li>py</code> allows users to convert the default FP8 weights into BF16 precision, offering flexibility for different hardware or software environments</li><li>- This preparation step is crucial for enabling distributed and efficient execution of the model</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "convert.py, fp8_cast_bf16.py, safetensors, hf-ckpt-path, save-path, weight_map, n-experts",
+			"generationPrompt": "How model weight conversion and setup works",
+			"generationKeywords": "convert.py, fp8_cast_bf16.py, safetensors, hf-ckpt-path, save-path, weight_map, n-experts"
+		},
+		"How the Mixture-of-Experts (MoE) and MLA architecture works": {
+			"name": "How the Mixture-of-Experts (MoE) and MLA architecture works",
+			"simSteps": [],
+			"description": "<ul><li>The model's high performance and efficiency stem from its advanced transformer architecture, primarily Mixture-of-Experts (MoE) and Multi-head Latent Attention (MLA)</li><li>- Most transformer blocks are MoE layers, which use a <code>Gate</code> module to route each token to a small subset (<code>n_activated_experts</code>) of a large pool of <code>Expert</code> networks</li><li>This activates only a fraction of the model's total parameters for each token, saving computation</li><li>- The attention mechanism is Multi-head Latent Attention (MLA), which uses low-rank projections (<code>q_lora_rank</code>, <code>kv_lora_rank</code>) to create latent representations for keys and values, reducing the size of the KV cache and improving efficiency</li><li>- These architectural choices are implemented in the <code>MoE</code> and <code>MLA</code> classes within <code>inference/model</li><li>py</code></li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "MoE, MLA, Gate, Expert, n_activated_experts, q_lora_rank, kv_lora_rank",
+			"generationPrompt": "How the Mixture-of-Experts (MoE) and MLA architecture works",
+			"generationKeywords": "MoE, MLA, Gate, Expert, n_activated_experts, q_lora_rank, kv_lora_rank"
+		},
+		"How long context processing works": {
+			"name": "How long context processing works",
+			"simSteps": [],
+			"description": "<ul><li>The model can process very long sequences of text, up to 128,000 tokens, enabling use cases like summarizing large documents or maintaining long-running conversations</li><li>- This is achieved using Rotary Positional Embeddings (RoPE) to encode token positions</li><li>- To extend the context length beyond what it was originally trained on, the model uses a technique similar to YaRN (Yet another RoPE extensioN method)</li><li>- The <code>precompute_freqs_cis</code> function in <code>model</li><li>py</code> calculates the RoPE frequencies, applying a scaling factor (<code>rope_factor</code>) to interpolate positional information for longer sequences</li><li>- The embeddings are applied to the queries and keys in the attention layer via the <code>apply_rotary_emb</code> function</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "precompute_freqs_cis, apply_rotary_emb, rope_theta, rope_factor, max_seq_len, Yarn, 128K",
+			"generationPrompt": "How long context processing works",
+			"generationKeywords": "precompute_freqs_cis, apply_rotary_emb, rope_theta, rope_factor, max_seq_len, Yarn, 128K"
+		},
+		"How Multi-Token Prediction (MTP) works": {
+			"name": "How Multi-Token Prediction (MTP) works",
+			"simSteps": [],
+			"description": "<ul><li>The model includes a Multi-Token Prediction (MTP) module to enhance performance and enable speculative decoding for faster inference</li><li>- As detailed in <code>README_WEIGHTS</li><li>md</code>, the model architecture includes an extra transformer layer (<code>model</li><li>layers</li><li>61</code> in the 671B model) dedicated to MTP</li><li>- This module is designed to predict several future tokens at once, rather than just the next single token</li><li>- While the core inference script (<code>generate</li><li>py</code>) implements standard single-token generation, the architecture and weights are present to support community-developed speculative decoding implementations</li><li>- This feature can significantly reduce the latency of text generation by reducing the number of required forward passes through the main model</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "README_WEIGHTS.md, num_nextn_predict_layers, model.layers.61, speculative decoding, MTP Modules, eh_proj",
+			"generationPrompt": "How Multi-Token Prediction (MTP) works",
+			"generationKeywords": "README_WEIGHTS.md, num_nextn_predict_layers, model.layers.61, speculative decoding, MTP Modules, eh_proj"
+		},
+		"How cross-platform hardware acceleration works": {
+			"name": "How cross-platform hardware acceleration works",
+			"simSteps": [],
+			"description": "<ul><li>The project ensures broad usability by officially supporting and recommending inference solutions for a variety of hardware platforms beyond just NVIDIA GPUs</li><li>- The README provides specific instructions for running the model on AMD GPUs using frameworks like SGLang and vLLM</li><li>- It also details support for Huawei Ascend NPUs via the MindIE framework</li><li>- For NVIDIA, it leverages low-level Triton kernels (<code>inference/kernel</li><li>py</code>) and high-level frameworks like TensorRT-LLM for maximum performance</li><li>- This focus on hardware compatibility lowers the barrier to entry and allows a wider range of users to deploy the model efficiently</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "SGLang, AMD, Huawei Ascend, MindIE, vLLM, TensorRT-LLM, triton",
+			"generationPrompt": "How cross-platform hardware acceleration works",
+			"generationKeywords": "SGLang, AMD, Huawei Ascend, MindIE, vLLM, TensorRT-LLM, triton"
+		},
+		"How model architecture customization works": {
+			"name": "How model architecture customization works",
+			"simSteps": [],
+			"description": "<ul><li>The model's architecture is not hardcoded but is defined by a flexible configuration, allowing for different model sizes and variations</li><li>- The <code>inference/configs</code> directory contains JSON files (<code>config_16B</li><li>json</code>, <code>config_671B</li><li>json</code>, etc</li><li>) that specify all architectural hyperparameters</li><li>- The <code>ModelArgs</code> dataclass in <code>inference/model</li><li>py</code> loads one of these configurations to build the model dynamically</li><li>- Parameters like the number of layers, hidden dimensions, number of attention heads, and MoE expert counts can all be controlled via the config file</li><li>- This allows researchers and advanced users to easily understand the model's structure, experiment with variations, or adapt the code for new, custom-trained models based on the same architecture</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "ModelArgs, config.json, dim, n_layers, n_heads, n_experts, qk_rope_head_dim",
+			"generationPrompt": "How model architecture customization works",
+			"generationKeywords": "ModelArgs, config.json, dim, n_layers, n_heads, n_experts, qk_rope_head_dim"
+		}
+	},
+	"cellToPath": {
+		"6cd69da6-c163-4e2f-85f2-4e4b4d167ff7": "README.md",
+		"b7b1bf7e-d8be-4308-ae89-1fe4cfecf5b2": "inference",
+		"f10a4b0c-b693-4808-bd44-1912d1fc1c3c": "inference/generate.py",
+		"0746b257-ccb2-473d-8c08-730666dde2ae": "README.md-simstep-f40a6b22-9da0-470b-b8a1-8e573fe1fe86",
+		"5ecc07eb-0ec8-41d5-b759-bbfa0b6f73d0": "inference/generate.py-simstep-5a4a86e0-18c8-493f-abe7-842451dcdcd5",
+		"1b47e7a4-501b-4269-bb15-484dd2b84e89": "inference/generate.py-simstep-9e9d8cfc-a497-4d6c-b14b-75982bfac0c4",
+		"a5e93e01-c0d6-4a62-8f5f-7ffa13663b2b": "inference/generate.py-simstep-bb9dcd82-c015-4d24-bee4-5a226555232c",
+		"1f667322-0be1-486d-a862-785492ebcccb": "inference/generate.py-simstep-bc146555-06c3-45e8-b556-2e74e0dffc38",
+		"1a702b06-43a1-4471-98c2-030a8fac62ce": "inference/generate.py-simstep-d839c3db-93e5-4ebe-81db-23102724193d",
+		"694ab3ba-aad9-40c4-aaa0-fef15b18c84c": "inference/generate.py-simstep-6f075814-cec0-4a3b-84e1-4eade83a09af",
+		"fed7b983-e9af-45dd-9f8e-b5c0513ed02b": "inference/generate.py-simstep-934e399a-eb6c-48e8-b744-adeedf7a9363",
+		"10c7ffb7-97d5-42f5-91bf-68cc3ff1a660": "generated-edge-simstep-85950b06-a5a7-41c4-93bb-de3383a8b2eb-10c7ffb7-97d5-42f5-91bf-68cc3ff1a660",
+		"ea186c00-bfa0-4fed-8311-f10e05c959fa": "generated-edge-simstep-ebc39b55-82b3-4e4e-a11e-e03cc15cbfbf-ea186c00-bfa0-4fed-8311-f10e05c959fa",
+		"a347e119-9278-4bbb-b0fe-1de7fc106f1e": "generated-edge-simstep-608a3136-401b-4152-9705-55177d677876-a347e119-9278-4bbb-b0fe-1de7fc106f1e",
+		"92db04f4-2356-44a7-96b5-3fe453fcb8a8": "generated-edge-simstep-5c5b9b38-b8d7-4c4d-ba60-d4da1eff5015-92db04f4-2356-44a7-96b5-3fe453fcb8a8",
+		"9020a9a2-77e9-49c4-8070-7df6b663bed7": "generated-edge-simstep-0d1264e5-eec6-4b47-aa44-9e0a62c43ef0-9020a9a2-77e9-49c4-8070-7df6b663bed7",
+		"caa82f9a-05a2-4f4e-9158-6b77ab593ceb": "generated-edge-simstep-b16e01da-fbf2-4b33-96d9-66d6678a9e40-caa82f9a-05a2-4f4e-9158-6b77ab593ceb",
+		"7d3ca400-1202-41ef-b9e9-789e06de42b6": "generated-edge-simstep-fe9d2525-1f59-44bc-a9b6-4caca71c2c6e-7d3ca400-1202-41ef-b9e9-789e06de42b6",
+		"cd1362ea-766b-42c6-9465-d48a7b0c3ce1": "inference/model.py",
+		"66caa57a-7d50-4c7f-9650-7b275897335f": "inference/kernel.py",
+		"da4459af-ed20-412a-aba1-4b1f05efe5d1": "inference/fp8_cast_bf16.py",
+		"bf3aae5a-2e61-4023-9fb1-98cccf4908df": "inference/model.py-simstep-7b730b57-3ed3-437b-aedf-83452f90a215",
+		"a891f3ff-fc0f-4542-b007-b69f85051860": "inference/kernel.py-simstep-8981fb17-40e8-47e3-a137-7db4b4e767c1",
+		"ca76e097-8403-4429-9295-9c99b14ccd7f": "inference/model.py-simstep-ef8ec40d-8d14-40ad-89b0-b97d484b10e8",
+		"fc7cb542-c506-4ad5-b655-64e46c17fa60": "inference/kernel.py-simstep-b6456c43-b3e7-4abd-b066-658df2a46dbb",
+		"39f8a6c2-5589-42fe-8fc3-a94c1536e950": "inference/fp8_cast_bf16.py-simstep-3e688546-0a88-4272-9baf-435a46b88dc4",
+		"e893e1c1-223c-42e7-b59e-57d04d199c0e": "inference/kernel.py-simstep-34a45fd1-bc22-48eb-be24-610c64fb40a5",
+		"b3e53f37-cb0e-4329-b078-b75428e294b6": "inference/kernel.py-simstep-e1a1a2d8-4475-42f1-af8c-0157522f57c9",
+		"c8464097-04cf-4283-bda0-883beaee7b6e": "inference/fp8_cast_bf16.py-simstep-2e3480fe-2a62-43f9-953c-6af2d8a30960",
+		"adfeefeb-6ffd-4fb1-b3ea-654666f01775": "generated-edge-simstep-afd6e45d-22ab-4548-b4da-02c02e9bbf85-adfeefeb-6ffd-4fb1-b3ea-654666f01775",
+		"c27a616b-ebeb-46bd-b680-32de070d655e": "generated-edge-simstep-2000fe72-ac7e-4780-9edf-b6072b8040de-c27a616b-ebeb-46bd-b680-32de070d655e",
+		"5771b2ac-7894-4d66-ac66-ef2e2bad08aa": "generated-edge-simstep-21de04e4-c5b8-481a-8a0f-f316f5190587-5771b2ac-7894-4d66-ac66-ef2e2bad08aa",
+		"11f7b5b1-4d7d-4f10-804e-e70b09840500": "generated-edge-simstep-bf67524b-b685-47c1-a87c-2b6bc35c0c91-11f7b5b1-4d7d-4f10-804e-e70b09840500",
+		"29590677-243c-428c-b678-c04f1fc7f554": "generated-edge-simstep-0b81e28f-2d46-4daa-a6ac-557d56cca313-29590677-243c-428c-b678-c04f1fc7f554",
+		"3714d2d7-04dd-4218-a9d7-de7208992c6a": "generated-edge-simstep-4f940598-d09b-4d93-b279-b85a6d397f31-3714d2d7-04dd-4218-a9d7-de7208992c6a",
+		"0c511692-312e-4a20-a296-b68c64e89833": "generated-edge-simstep-699e0766-0ccc-4f56-94b8-12be2b64e2ac-0c511692-312e-4a20-a296-b68c64e89833",
+		"be19f971-55ab-495d-b562-143a5dfabb21": "README.md-simstep-5f8c9731-b3c9-472b-80d7-684f64e8aad4",
+		"135f55ad-c670-4a93-aeb1-27c7de5963d6": "inference/generate.py-simstep-40e8b95d-7ac2-494d-b359-716a57539176",
+		"a9691dfb-ba90-414c-a497-65f025d22f4a": "inference/generate.py-simstep-334f8055-3564-464e-88e7-962439ca1160",
+		"ace2abbf-8af5-4b41-829a-1aef065eef8b": "inference/model.py-simstep-fadd6e81-02f2-4943-b6fd-675ef0b64d65",
+		"9bcca4e1-bb92-4665-86f5-c1f1089116fd": "inference/model.py-simstep-e37b58fa-6cbb-4b4f-a684-62d6e1ec3a8d",
+		"cda88692-38f8-4213-a123-883d33542976": "inference/model.py-simstep-693f1026-5630-4ed6-8a0e-b3ed75bedb71",
+		"125b2cbe-c32b-4f69-acc4-9603246997d4": "inference/model.py-simstep-cf999bc1-4713-425e-90dd-3d3c40a108c1",
+		"a006bc12-cc4b-4caa-a980-58df1316bef4": "inference/model.py-simstep-f96bbdc9-856b-4dc2-9d2d-a21357604833",
+		"c8cf54bf-a366-4aa9-9360-8e8f76293f38": "inference/model.py-simstep-d5c9716b-f7d5-44e1-a58c-fdd28660aafa",
+		"d9955bac-2053-459e-890e-d79e3d0e2218": "inference/generate.py-simstep-cabfc866-8d46-4104-8c04-4950ec6630ad",
+		"129dfb44-bcb7-46de-a9bb-465dcbd11d80": "generated-edge-simstep-bbaffc24-4cc1-4de7-bc33-4aaebc1e2874-129dfb44-bcb7-46de-a9bb-465dcbd11d80",
+		"cd0d5786-4c14-445e-8fef-96c679ba21a1": "generated-edge-simstep-4bc7586c-6373-4507-accc-97c979acd9bc-cd0d5786-4c14-445e-8fef-96c679ba21a1",
+		"5ba5239b-004e-4a41-89c0-17ed3b098bb8": "generated-edge-simstep-b8126c51-b1fb-4775-b887-61c8f08278ac-5ba5239b-004e-4a41-89c0-17ed3b098bb8",
+		"6859bd0d-d7fc-4590-991f-58349dad01db": "generated-edge-simstep-74dfb9e3-d4e2-45e8-bda9-617c05aeca87-6859bd0d-d7fc-4590-991f-58349dad01db",
+		"4b358b04-f5b4-49af-856f-ede61a0865ee": "generated-edge-simstep-8602e6ed-9418-43c5-9ecf-d1f826eac3f0-4b358b04-f5b4-49af-856f-ede61a0865ee",
+		"7309b263-a324-467c-a0e8-6d5c5c3149d3": "generated-edge-simstep-eb5eeaed-0905-49e9-82e7-edf10c53b6e8-7309b263-a324-467c-a0e8-6d5c5c3149d3",
+		"33a36d6a-4e79-4c54-8f51-4c16d27d8075": "generated-edge-simstep-669637bd-8119-41c9-a091-59e5dbf5817e-33a36d6a-4e79-4c54-8f51-4c16d27d8075",
+		"1ce50f47-e937-4bd0-89b9-0c535d21139f": "generated-edge-simstep-61d58d74-b9c4-44fd-8d0b-fc0b2ec9078d-1ce50f47-e937-4bd0-89b9-0c535d21139f",
+		"17665480-10c1-4441-8de3-d5ee769c3fac": "generated-edge-simstep-7661e4eb-d996-44ff-8413-fcf66b2905bb-17665480-10c1-4441-8de3-d5ee769c3fac"
+	}
+}
